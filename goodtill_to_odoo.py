@@ -6,9 +6,11 @@ Fetches products/categories from Goodtill API and creates/updates
 product.template records in Odoo (POS-ready).
 
 Usage:
-  python3 goodtill_to_odoo.py --preview     # show what would sync
-  python3 goodtill_to_odoo.py --sync        # import/update products
-  python3 goodtill_to_odoo.py --sync --limit 20   # test with first 20
+  python3 goodtill_to_odoo.py --preview          # show what would sync
+  python3 goodtill_to_odoo.py --sync             # import/update products
+  python3 goodtill_to_odoo.py --sync-images      # download Goodtill images → Odoo
+  python3 goodtill_to_odoo.py --sync --sync-images   # products + images
+  python3 goodtill_to_odoo.py --sync-images --limit 20
 
 Env vars (or .env file in same directory):
   GOODTILL_SUBDOMAIN, GOODTILL_USERNAME, GOODTILL_PASSWORD
@@ -19,10 +21,12 @@ Env vars (or .env file in same directory):
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 import xmlrpc.client
@@ -44,6 +48,57 @@ def load_dotenv(path: Path) -> None:
 
 def env(key: str, default: str = "") -> str:
     return os.environ.get(key, default)
+
+
+def download_image_bytes(url: str, token: str | None = None, timeout: int = 45) -> bytes | None:
+    """Download raw image bytes from S3 URL or Goodtill API."""
+    headers = {}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers, method="GET")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = resp.read()
+            ctype = resp.headers.get("Content-Type", "")
+            if not data or "image" not in ctype and not url.endswith((".jpg", ".jpeg", ".png", ".webp")):
+                if data[:1] == b"{":
+                    return None
+            return data
+    except urllib.error.HTTPError:
+        return None
+    except urllib.error.URLError:
+        return None
+
+
+def goodtill_product_image(token: str, product: dict) -> bytes | None:
+    """Fetch product image from Goodtill (S3 URL or API fallback)."""
+    image_url = (product.get("image") or "").strip()
+    if image_url and image_url.startswith("http"):
+        data = download_image_bytes(image_url)
+        if data:
+            return data
+    pid = product.get("id")
+    if not pid:
+        return None
+    api_url = f"https://api.thegoodtill.com/api/products/{pid}/image.jpg"
+    return download_image_bytes(api_url, token=token)
+
+
+def find_odoo_product_id(models, db, uid, password, product: dict) -> int | None:
+    ref = gt_ref(product["id"])
+    sku = (product.get("product_sku") or "").strip()
+    name = (product.get("product_name") or "").strip()
+    domain = [
+        "|",
+        "|",
+        ("default_code", "=", ref),
+        ("default_code", "=", sku) if sku else ("id", "=", -1),
+        ("name", "=", name),
+    ]
+    ids = odoo_execute(
+        models, db, uid, password, "product.template", "search", args=[domain], limit=1
+    )
+    return ids[0] if ids else None
 
 
 def goodtill_request(path: str, token: str | None = None, body: dict | None = None) -> dict:
@@ -117,10 +172,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Sync Goodtill products to Odoo")
     parser.add_argument("--preview", action="store_true", help="Preview only, no Odoo writes")
     parser.add_argument("--sync", action="store_true", help="Create/update products in Odoo")
+    parser.add_argument("--sync-images", action="store_true", help="Download Goodtill images into Odoo products")
     parser.add_argument("--limit", type=int, default=0, help="Max products to process (0=all)")
+    parser.add_argument("--delay", type=float, default=0.15, help="Seconds between image uploads")
     args = parser.parse_args()
 
-    if not args.preview and not args.sync:
+    if not args.preview and not args.sync and not args.sync_images:
         parser.print_help()
         return 1
 
@@ -171,16 +228,23 @@ def main() -> int:
     for name, count in sorted(by_cat.items(), key=lambda x: -x[1]):
         print(f"  {count:3d}  {name}")
 
+    with_images = [p for p in candidates if p.get("image")]
+    print(f"Products with images: {len(with_images)} / {len(candidates)}")
+
     if args.preview:
         print("\nSample (first 10):")
         for p in candidates[:10]:
             cid = p.get("category_id")
             cname = (cat_by_id.get(cid) or {}).get("name", "?")
+            img = "yes" if p.get("image") else "no"
             print(
-                f"  {p.get('product_name')[:40]:40} £{p.get('selling_price'):>6}  [{cname}]  ref={gt_ref(p['id'])}"
+                f"  {p.get('product_name')[:40]:40} £{p.get('selling_price'):>6}  [{cname}]  img={img}"
             )
-        print("\nPreview complete. Run with --sync to import.")
+        print("\nPreview complete. Run with --sync or --sync-images to import.")
         return 0
+
+    if args.sync_images and not args.sync:
+        return sync_images_only(token, candidates, args)
 
     print("\nConnecting to Odoo...")
     db, uid, password, models = odoo_connect()
@@ -288,6 +352,77 @@ def main() -> int:
             created += 1
 
     print(f"\nSync complete: created={created}, updated={updated}, skipped={skipped}")
+
+    if args.sync_images:
+        print("\n--- Image sync ---")
+        img_stats = upload_images(token, models, db, uid, password, candidates, args.delay)
+        print(
+            f"Images: uploaded={img_stats['uploaded']}, skipped={img_stats['skipped']}, "
+            f"no_odoo={img_stats['no_odoo']}, failed={img_stats['failed']}"
+        )
+    return 0
+
+
+def upload_images(
+    token: str,
+    models,
+    db: str,
+    uid: int,
+    password: str,
+    candidates: list,
+    delay: float,
+) -> dict:
+    uploaded = skipped = no_odoo = failed = 0
+    for i, p in enumerate(candidates, 1):
+        name = (p.get("product_name") or "").strip()
+        if not p.get("image"):
+            skipped += 1
+            continue
+
+        odoo_id = find_odoo_product_id(models, db, uid, password, p)
+        if not odoo_id:
+            no_odoo += 1
+            print(f"  [{i}] {name[:35]:35} — no Odoo match")
+            continue
+
+        img_bytes = goodtill_product_image(token, p)
+        if not img_bytes or len(img_bytes) < 100:
+            failed += 1
+            print(f"  [{i}] {name[:35]:35} — download failed")
+            continue
+
+        b64 = base64.b64encode(img_bytes).decode("ascii")
+        try:
+            odoo_execute(
+                models,
+                db,
+                uid,
+                password,
+                "product.template",
+                "write",
+                args=[[odoo_id], {"image_1920": b64}],
+            )
+            uploaded += 1
+            if uploaded <= 5 or uploaded % 25 == 0:
+                print(f"  [{i}] {name[:35]:35} — OK ({len(img_bytes)//1024} KB)")
+        except Exception as e:
+            failed += 1
+            print(f"  [{i}] {name[:35]:35} — Odoo error: {str(e)[:80]}")
+
+        if delay:
+            time.sleep(delay)
+    return {"uploaded": uploaded, "skipped": skipped, "no_odoo": no_odoo, "failed": failed}
+
+
+def sync_images_only(token: str, candidates: list, args) -> int:
+    print("\nConnecting to Odoo...")
+    db, uid, password, models = odoo_connect()
+    print(f"  Authenticated uid={uid}")
+    stats = upload_images(token, models, db, uid, password, candidates, args.delay)
+    print(
+        f"\nImage sync complete: uploaded={stats['uploaded']}, skipped={stats['skipped']}, "
+        f"no_odoo={stats['no_odoo']}, failed={stats['failed']}"
+    )
     return 0
 
 
