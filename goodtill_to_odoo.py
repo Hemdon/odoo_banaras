@@ -393,6 +393,12 @@ def upload_images(
 
         b64 = base64.b64encode(img_bytes).decode("ascii")
         try:
+            # Write image; include list_price touch so write_date changes (POS cache bust)
+            odoo_data = odoo_execute(
+                models, db, uid, password, "product.template", "read",
+                args=[[odoo_id]], fields=["list_price"],
+            )
+            lp = odoo_data[0]["list_price"] if odoo_data else 0
             odoo_execute(
                 models,
                 db,
@@ -400,7 +406,7 @@ def upload_images(
                 password,
                 "product.template",
                 "write",
-                args=[[odoo_id], {"image_1920": b64}],
+                args=[[odoo_id], {"image_1920": b64, "list_price": lp}],
             )
             uploaded += 1
             if uploaded <= 5 or uploaded % 25 == 0:
