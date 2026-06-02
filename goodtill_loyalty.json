@@ -1,0 +1,254 @@
+{
+  "version": 2,
+  "points_per_currency": 5,
+  "program_name": "Banaras Paan Loyalty",
+  "notes": [
+    "Loyalty categories are NOT Odoo product categories or POS categories.",
+    "Use groups for top level (paan, bubble_tea) and categories for redeem tiers.",
+    "Attach products per category via goodtill_ids, skus, and/or names (exact Goodtill product_name).",
+    "Optional match rules auto-add products when you run setup (edit lists after first run)."
+  ],
+  "groups": [
+    {
+      "key": "paan",
+      "name": "Paan"
+    },
+    {
+      "key": "bubble_tea",
+      "name": "Bubble Tea"
+    }
+  ],
+  "categories": [
+    {
+      "key": "standard_paan",
+      "name": "Standard Paan",
+      "parent": "paan",
+      "goodtill_reward": "Free Standard Paan",
+      "products": {
+        "goodtill_ids": [
+          "512e4f33-080b-4f7b-b171-cfc5599df52f",
+          "c39a64fb-1332-4dfc-bc44-4afcbadb819c",
+          "71bacc04-10c6-4412-ae31-ed61a9ab0c0b",
+          "4e5a8ffa-71ba-4e17-9081-80bc5ebc5e29"
+        ],
+        "skus": [],
+        "names": [
+          "Saffron Sweet Paan",
+          "Pineapple Flavour Paan",
+          "Sada Khara Paan",
+          "Rose Paan"
+        ]
+      }
+    },
+    {
+      "key": "delux_paan",
+      "name": "Delux Paan",
+      "parent": "paan",
+      "goodtill_reward": "Free Delux Paan",
+      "products": {
+        "goodtill_ids": [
+          "9320d20c-a702-4a36-8bf2-d8da2fcc94ed",
+          "7491d63a-93e2-4541-8559-e734df3e9a8a",
+          "a2bfa3a1-cebc-4758-aa6d-cc8c7f1963af",
+          "0d30ec44-1090-404d-9abc-76af9eb23bba"
+        ],
+        "skus": [],
+        "names": [
+          "Mughdha Ras Paan",
+          "Banaras Coconut Paan",
+          "Kalkatti Supari Paan",
+          "Elaichi Paan"
+        ]
+      }
+    },
+    {
+      "key": "premium_paan",
+      "name": "Premium Paan",
+      "parent": "paan",
+      "products": {
+        "goodtill_ids": [
+          "98fd18d7-2374-444f-b67c-4d8f6750b5fb",
+          "60926173-7bb6-42f6-bcc7-e2c255c65982",
+          "02626f20-8324-41c1-8c36-81dabdee806a",
+          "b789193c-4172-404e-80d6-4887d3187a53"
+        ],
+        "skus": [
+          "BOMBAY_MAGAI_PAAN",
+          "BANARAS_NAVAAB_PAAN",
+          "SPECIAL_BANARAS_PAAN"
+        ],
+        "names": []
+      },
+      "match": {
+        "name_contains_any": ["premium"],
+        "name_contains_all": ["paan"]
+      }
+    },
+    {
+      "key": "royal_paan",
+      "name": "Royal Paan",
+      "parent": "paan",
+      "products": {
+        "goodtill_ids": ["00c7da51-5236-492c-97be-2be33cf4a2d0"],
+        "skus": [],
+        "names": ["Rose Royal Paan"]
+      },
+      "match": {
+        "name_contains_any": ["royal"],
+        "name_contains_all": ["paan"]
+      }
+    },
+    {
+      "key": "bubble_tea_500ml",
+      "name": "500ml Bubble Tea",
+      "parent": "bubble_tea",
+      "products": {
+        "goodtill_ids": [],
+        "skus": [],
+        "names": []
+      },
+      "match": {
+        "name_contains_all": ["500ml"],
+        "name_contains_any": ["milk tea", "fruit tea"]
+      }
+    },
+    {
+      "key": "mix_fruit_tea_500ml",
+      "name": "500ml Mix Fruit Tea",
+      "parent": "bubble_tea",
+      "products": {
+        "goodtill_ids": [],
+        "skus": [],
+        "names": []
+      },
+      "match": {
+        "name_contains_all": ["500ml"],
+        "name_contains_any": ["fruit tea"]
+      }
+    },
+    {
+      "key": "bubble_tea_700ml",
+      "name": "700ml Bubble Tea",
+      "parent": "bubble_tea",
+      "products": {
+        "goodtill_ids": [],
+        "skus": [],
+        "names": []
+      },
+      "match": {
+        "name_contains_all": ["700ml"],
+        "name_contains_any": ["milk tea", "fruit tea"]
+      }
+    },
+    {
+      "key": "bubble_tea_500ml_hatch",
+      "name": "500ml Bubble Tea (Hatch End list)",
+      "parent": "bubble_tea",
+      "goodtill_reward": "Hatch End - Free 500ml Bubble Tea",
+      "products": {
+        "goodtill_ids": [],
+        "skus": [],
+        "names": [
+          "Banaras  Mango Milk 500ml",
+          "Banaras  Matcha Green 500ml",
+          "Banaras Banana Milk Tea (500ml)",
+          "Banaras Chocolate Milk Tea (500ml)",
+          "Banaras Coconut Milk Tea (500ml)",
+          "Banaras Grap Fruit Tea (500ml)",
+          "Banaras Hazelnut Milk Tea (500ml)",
+          "Banaras Kiwi Fruit Tea (500ml)",
+          "Banaras Lemon Fruit Tea (500ml)",
+          "Banaras Lychee Fruit Tea (500ml)"
+        ]
+      }
+    }
+  ],
+  "programs": [
+    {
+      "key": "loyalty_rayners",
+      "name": "Banaras Paan Loyalty",
+      "outlet_tags": ["BNRSUK"],
+      "pos_registers": ["Main Register"],
+      "rewards": [
+        {
+          "description": "Free Standard Paan",
+          "points": 75,
+          "category": "standard_paan"
+        },
+        {
+          "description": "Free Delux Paan",
+          "points": 100,
+          "category": "delux_paan"
+        },
+        {
+          "description": "Free Premium Paan",
+          "points": 125,
+          "category": "premium_paan"
+        },
+        {
+          "description": "Free Royal Paan",
+          "points": 175,
+          "category": "royal_paan"
+        },
+        {
+          "description": "Free 500ml Bubble Tea",
+          "points": 125,
+          "category": "bubble_tea_500ml"
+        },
+        {
+          "description": "Free 500ml Mix Fruit Tea",
+          "points": 150,
+          "category": "mix_fruit_tea_500ml"
+        },
+        {
+          "description": "Free 700ml Bubble Tea",
+          "points": 175,
+          "category": "bubble_tea_700ml"
+        }
+      ]
+    },
+    {
+      "key": "loyalty_hatch",
+      "name": "Banaras Paan Loyalty (Hatch End)",
+      "outlet_tags": ["BNRSHE"],
+      "pos_registers": ["Hatch End Register"],
+      "rewards": [
+        {
+          "description": "Hatch End - Free Standard Paan",
+          "points": 100,
+          "category": "standard_paan"
+        },
+        {
+          "description": "Hatch End - Free Delux Paan",
+          "points": 125,
+          "category": "delux_paan"
+        },
+        {
+          "description": "Hatch End - Free Premium Paan",
+          "points": 150,
+          "category": "premium_paan"
+        },
+        {
+          "description": "Hatch End - Free Royal Paan",
+          "points": 200,
+          "category": "royal_paan"
+        },
+        {
+          "description": "Hatch End - Free 500ml Bubble Tea",
+          "points": 150,
+          "category": "bubble_tea_500ml_hatch"
+        },
+        {
+          "description": "Hatch End - Free 500ml Mix Fruit Tea",
+          "points": 225,
+          "category": "mix_fruit_tea_500ml"
+        },
+        {
+          "description": "Hatch End - Free 700ml Bubble Tea",
+          "points": 200,
+          "category": "bubble_tea_700ml"
+        }
+      ]
+    }
+  ]
+}

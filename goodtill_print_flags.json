@@ -1,0 +1,3792 @@
+[
+  {
+    "id": "a5c38c44-60f4-49c2-b106-69bfb1f8635d",
+    "name": "American Express Txn Charges",
+    "sku": "AMERICAN_EXPRESS_TXN_CHARGES",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "372ea13f-94f5-44ee-8f08-7ae2d7ababea",
+    "name": "American ICE Cream Falooda",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "5e959cd5-7c6b-4338-afd7-b05f93cc99db",
+    "name": "Aspire Mango Lemonate",
+    "sku": "ASPIRE_MANGO_LEMONATE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3f714699-9ab4-4cf5-a1b7-aa072315137d",
+    "name": "Aspire Raspberry",
+    "sku": "ASPIRE_RASPBERRY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "453bd7d4-b8f8-48f0-80ae-aa7361e42336",
+    "name": "BABA Black Small Supari",
+    "sku": "BABA_BLACK_SMALL_SUPARI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c2396136-bc08-447d-a042-ba6ca4ba41ca",
+    "name": "BABA Black Supari",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f2828656-f19c-409d-8ec8-6d213a681a9b",
+    "name": "BABA Black Supari - 36pkg BOX",
+    "sku": "BABA_BLACK_SUPARI_BOX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "fe1f91ff-8ba8-40fa-bee3-00f0537b663b",
+    "name": "BABA Elaichi",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "4580ed4d-6dcb-430e-b654-081b58d46226",
+    "name": "BABA Elaichi 10g",
+    "sku": "BABA_ELAICHI_10G",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2d64af94-95b5-4d30-8831-abd30e0f5007",
+    "name": "BABA Nauratna Paan Masala",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "16359583-6556-4061-912a-55ec1a4675b2",
+    "name": "BABA Small Elaichi",
+    "sku": "BABA_SMALL_ELAICHI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "734849b3-2f20-43fb-96af-9e703823668b",
+    "name": "BABA Sweet Elaichi",
+    "sku": "BABA_ELAICHI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "63498fef-db7d-4714-be3d-175dd3cd4262",
+    "name": "BUTTERSCOTCH 1 Litre",
+    "sku": "BUTTERSCOTCH_1_LITRE_1",
+    "parent_id": "e7b91ece-c928-4fa6-8ef8-2750d082d49b",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "dcf2a2c8-6845-462c-a407-a6258b848a12",
+    "name": "BUTTERSCOTCH 1 Scoop Scoop",
+    "sku": "BUTTERSCOTCH_1_SCOOP_SCOOP_1",
+    "parent_id": "e7b91ece-c928-4fa6-8ef8-2750d082d49b",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b29ac1f5-d3cc-4331-939d-532bd5c35ca2",
+    "name": "BUTTERSCOTCH 1 Scoop Waffle Cone",
+    "sku": "BUTTERSCOTCH_1_SCOOP_WAFFLE_CONE_1",
+    "parent_id": "e7b91ece-c928-4fa6-8ef8-2750d082d49b",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "aa4ba1af-bd80-4d47-a950-e78966401e50",
+    "name": "BUTTERSCOTCH 2 Scoops Scoop",
+    "sku": "BUTTERSCOTCH_2_SCOOPS_SCOOP_1",
+    "parent_id": "e7b91ece-c928-4fa6-8ef8-2750d082d49b",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2be78e7a-ed22-4105-88d0-585b0e46b369",
+    "name": "BUTTERSCOTCH 2 Scoops Waffle Cone",
+    "sku": "BUTTERSCOTCH_2_SCOOPS_WAFFLE_CONE_1",
+    "parent_id": "e7b91ece-c928-4fa6-8ef8-2750d082d49b",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e7b91ece-c928-4fa6-8ef8-2750d082d49b",
+    "name": "BUTTERSCOTCH SENSATION",
+    "sku": "BUTTERSCOTCH_SENSATION",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9118eea4-5d17-4510-83f7-7b86b95e300c",
+    "name": "BUZZZZZZZ 1",
+    "sku": "BUZZZZZZZ_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "51353801-21e3-4dbf-b98b-2b9a1b346401",
+    "name": "BUZZZZZZZ 10",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "842613e1-944f-4f8f-b485-3d7a7052be03",
+    "name": "BUZZZZZZZ 11",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "cd4c1a7e-8606-458e-a5c0-e989e6a8e8fb",
+    "name": "BUZZZZZZZ 12",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c5de11f0-ec07-4818-bec4-d77a12b9e63c",
+    "name": "BUZZZZZZZ 2",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0e30c890-7c05-43ef-b7ef-c454b230b191",
+    "name": "BUZZZZZZZ 3",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c76e4b34-a462-44f0-b7f5-c80b79b62fba",
+    "name": "BUZZZZZZZ 4",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7e99f162-473d-42f5-b5bd-aaa25b461821",
+    "name": "BUZZZZZZZ 5",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "5f73db4f-6131-4a56-b2fd-83f28ecdd8e2",
+    "name": "BUZZZZZZZ 6",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "472b5158-9583-4a63-be84-e3c334230bb4",
+    "name": "BUZZZZZZZ 7",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0ba5a28b-51e6-4bd1-8d3c-63c4fb779697",
+    "name": "BUZZZZZZZ 8",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "25575f8b-c893-4de3-ac1b-e50daaabb6e8",
+    "name": "BUZZZZZZZ 9",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8eb97194-20a1-47b2-9aae-784263ec450f",
+    "name": "Baby Choice Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "808ca7af-f9d1-44b8-9e7e-969d97f53239",
+    "name": "Banana Cream Heaven",
+    "sku": "BANANA_CREAM_HEAVEN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1bb1b884-45c7-45ed-b849-6fc9e2e29068",
+    "name": "Banaras  Mango  Milk 700ml",
+    "sku": "BANARAS_MANGO_MILK_700ML",
+    "parent_id": "9b3fe156-b858-4198-8f14-d2395b7b03d8",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "ee2d2e1b-c402-4e95-b887-38d93b0ec1f7",
+    "name": "Banaras  Mango Milk 500ml",
+    "sku": "BANARAS_MANGO_MILK_500ML",
+    "parent_id": "9b3fe156-b858-4198-8f14-d2395b7b03d8",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "84baa2ab-2ea6-4145-94ce-da4c72cd5b3c",
+    "name": "Banaras  Matcha Green 500ml",
+    "sku": "BANARAS_MATCHA_500ML",
+    "parent_id": "ecab00ef-1078-4f5e-965d-324e0aa8c72e",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "c4939bae-5204-42f9-afa7-b04046177a73",
+    "name": "Banaras  Matcha Green 700ml",
+    "sku": "BANARAS_MATCHA_700ML",
+    "parent_id": "ecab00ef-1078-4f5e-965d-324e0aa8c72e",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "0388ca7b-ddb8-4a1f-8b59-667e13ae80e4",
+    "name": "Banaras Americano Standard",
+    "sku": "BANARAS_AMERICANO_STANDARD",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9a5d3a14-8084-442a-a324-210a2bb24f56",
+    "name": "Banaras Apple Fruit  Tea 700ml (Copy)",
+    "sku": "BANARAS_APPLE_FRUIT_TEA_700ML_1",
+    "parent_id": "9804a083-7e1c-483a-b1f3-38eefec2dd6c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "9804a083-7e1c-483a-b1f3-38eefec2dd6c",
+    "name": "Banaras Apple Fruit Tea",
+    "sku": "BANARAS_APPLE_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d39bc3b0-159f-4898-8555-d5b9817d385c",
+    "name": "Banaras Apple Fruit Tea 500ml (Copy)",
+    "sku": "BANARAS_APPLE_FRUIT_TEA_500ML_1",
+    "parent_id": "9804a083-7e1c-483a-b1f3-38eefec2dd6c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "aed94aa5-f56e-43b7-93c9-f25641fe4a59",
+    "name": "Banaras Aroma ICE",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "73e78b46-62e2-486d-b35e-8ec0ad0547e4",
+    "name": "Banaras Assam 300ml",
+    "sku": "BANARAS_ASSAM_300ML",
+    "parent_id": "4f86e42c-0c78-4b6f-ba89-f2955b2f962a",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "0df1e149-5f2f-48d2-9c76-2531f4fd1f02",
+    "name": "Banaras Assam 400ml",
+    "sku": "BANARAS_ASSAM_400ML",
+    "parent_id": "4f86e42c-0c78-4b6f-ba89-f2955b2f962a",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "4f86e42c-0c78-4b6f-ba89-f2955b2f962a",
+    "name": "Banaras Assam Tea",
+    "sku": "BANARAS_ASSAM_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "7011e788-0c5f-4b93-acdf-9f552cd3a5a0",
+    "name": "Banaras Banana Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d91cb080-052f-4c3a-b68f-e4eaaeb2e4c9",
+    "name": "Banaras Banana Milk Tea 500ml",
+    "sku": "",
+    "parent_id": "7011e788-0c5f-4b93-acdf-9f552cd3a5a0",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "8611dcb9-df2b-4d21-bdf6-58048478b88c",
+    "name": "Banaras Banana Milk Tea 700ml",
+    "sku": "",
+    "parent_id": "7011e788-0c5f-4b93-acdf-9f552cd3a5a0",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "eae6d2b9-1f27-4226-a6c1-f71c094d6dd9",
+    "name": "Banaras Brown Sugar Milk 500ml (Copy)",
+    "sku": "BANARAS_BROWNSUGAR_MILK_500ML",
+    "parent_id": "b12c2411-3080-485e-ac3b-c4f6c4fc37c1",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "b41ddbda-b365-4212-8757-c3ce4e6e763e",
+    "name": "Banaras Brown Sugar Milk 700ml (Copy)",
+    "sku": "BANARAS_BROWNSUGAR_MILK_700ML",
+    "parent_id": "b12c2411-3080-485e-ac3b-c4f6c4fc37c1",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "b12c2411-3080-485e-ac3b-c4f6c4fc37c1",
+    "name": "Banaras Brown Sugar Milk Tea",
+    "sku": "BANARAS_BROWNSUGAR_MILK_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "da70db8c-bddd-470d-bd70-3aeb98fcc9f3",
+    "name": "Banaras Chocolate Milk 500ml",
+    "sku": "BANARAS_CHOCOLATE_MILK_500ML",
+    "parent_id": "007cab4d-05f3-4b05-87cf-9dfd1c1629e5",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "9310abc9-bcf8-4b5d-abb6-78b73e4cef49",
+    "name": "Banaras Chocolate Milk 700ml",
+    "sku": "BANARAS_CHOCOLATE_MILK_700ML",
+    "parent_id": "007cab4d-05f3-4b05-87cf-9dfd1c1629e5",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "007cab4d-05f3-4b05-87cf-9dfd1c1629e5",
+    "name": "Banaras Chocolate Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "e09037ab-f1bf-4842-9fb2-0250f9ddf4cd",
+    "name": "Banaras Coconut Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "98a77d9a-e134-4b8f-9533-3f87a30e393b",
+    "name": "Banaras Coconut Milk Tea 500ml",
+    "sku": "",
+    "parent_id": "e09037ab-f1bf-4842-9fb2-0250f9ddf4cd",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "7e1f7279-f7f5-46b3-bddf-7c174bb4c43d",
+    "name": "Banaras Coconut Milk Tea 700ml",
+    "sku": "",
+    "parent_id": "e09037ab-f1bf-4842-9fb2-0250f9ddf4cd",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "7491d63a-93e2-4541-8559-e734df3e9a8a",
+    "name": "Banaras Coconut Paan",
+    "sku": "BANARAS_COCONUT_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b2f7eaae-c206-451d-b486-ccaa7ba483ef",
+    "name": "Banaras Dark Plum Fruit  Tea 700ml (Copy)",
+    "sku": "BANARAS_Dark Plum_FRUIT_TEA_700ML_1",
+    "parent_id": "6be2bf97-b266-4309-b082-0bb14ae0c62c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "6be2bf97-b266-4309-b082-0bb14ae0c62c",
+    "name": "Banaras Dark Plum Fruit Tea",
+    "sku": "BANARAS_ Dark Plum_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "133005e5-61bd-427b-88e0-239acc1efe24",
+    "name": "Banaras Dark Plum Fruit Tea 500ml (Copy)",
+    "sku": "BANARAS_Dark Plum_FRUIT_TEA_500ML_1",
+    "parent_id": "6be2bf97-b266-4309-b082-0bb14ae0c62c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "532a5673-24cd-4ee1-bce1-5f36cd9238d7",
+    "name": "Banaras Ginger Milk 500ml (Copy) (Copy)",
+    "sku": "BANARAS_GINGER_SUGAR_MILK_500ML_COPY",
+    "parent_id": "5b1309ad-ae3a-4fda-ba9c-6ea2d726ac7e",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d4bdb798-c4a7-4dd4-9310-05c392c069e3",
+    "name": "Banaras Ginger Milk 700ml (Copy) (Copy)",
+    "sku": "BANARAS_GINGER_SUGAR_MILK_700ML_COPY",
+    "parent_id": "5b1309ad-ae3a-4fda-ba9c-6ea2d726ac7e",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "5b1309ad-ae3a-4fda-ba9c-6ea2d726ac7e",
+    "name": "Banaras Ginger Milk Tea",
+    "sku": "BANARAS_GINGER_SUGAR_MILK_TEA_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "b9ea0917-78e8-468c-936a-7dc59701da3c",
+    "name": "Banaras Grap Fruit Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "05b13dcd-ccad-48e6-b220-d3b9874feada",
+    "name": "Banaras Grap Fruit Tea 500ml",
+    "sku": "",
+    "parent_id": "b9ea0917-78e8-468c-936a-7dc59701da3c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "206f68bb-e76d-406b-89cb-9d21d8c13716",
+    "name": "Banaras Grap Fruit Tea 700ml",
+    "sku": "",
+    "parent_id": "b9ea0917-78e8-468c-936a-7dc59701da3c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "075a7dee-5281-40d8-951d-c506e71f030a",
+    "name": "Banaras Hazelnut Milk 500ml",
+    "sku": "BANARA_HAZELNUT_MILK_500ML",
+    "parent_id": "d71a5560-c404-4ed9-b12e-a5f0ed404eb1",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "ef6d8483-fac6-4cf6-941d-8f94d78a317c",
+    "name": "Banaras Hazelnut Milk 700ml",
+    "sku": "BANARA_HAZELNUT_MILK_700ML",
+    "parent_id": "d71a5560-c404-4ed9-b12e-a5f0ed404eb1",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d71a5560-c404-4ed9-b12e-a5f0ed404eb1",
+    "name": "Banaras Hazelnut Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "99b8b90e-4f2a-4022-9d19-b386f4b6e028",
+    "name": "Banaras HoneyDew Fruit Tea",
+    "sku": "",
+    "parent_id": "f00eb13c-36c9-417d-acf4-ac67bd2b893b",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f00eb13c-36c9-417d-acf4-ac67bd2b893b",
+    "name": "Banaras HoneyDew Fruit Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f6ae1204-66cb-4c37-982c-2ba64a48125a",
+    "name": "Banaras HoneyDew Fruit Tea",
+    "sku": "",
+    "parent_id": "f00eb13c-36c9-417d-acf4-ac67bd2b893b",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "43ea9bab-cc3e-4e95-ae54-7173ea7be018",
+    "name": "Banaras ICE",
+    "sku": "MINI_ICE_GOLA_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "be47dac8-efdf-4b98-8f19-0e572eaa6230",
+    "name": "Banaras ICE Dish",
+    "sku": "BANARAS_ICE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "17c3f052-c9c3-48ae-8c6c-a6bcb0560ad9",
+    "name": "Banaras Jasmine 300ml",
+    "sku": "",
+    "parent_id": "de61546b-fdb0-40fd-819d-0060912d8483",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "e88f7f58-c47e-4b32-a64d-6e11cf5aa1a5",
+    "name": "Banaras Jasmine 400ml",
+    "sku": "",
+    "parent_id": "de61546b-fdb0-40fd-819d-0060912d8483",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "de61546b-fdb0-40fd-819d-0060912d8483",
+    "name": "Banaras Jasmine Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "07c436ae-f603-41b3-9905-a42b4f0b7eae",
+    "name": "Banaras KAMASUTRA Paan",
+    "sku": "BANARAS_KAMASUTRA_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b789193c-4172-404e-80d6-4887d3187a53",
+    "name": "Banaras King Paan",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6ed52156-5a53-41c5-a1cc-b984b4b5ec17",
+    "name": "Banaras Kiwi  Fruit Tea 500ml",
+    "sku": "BANARAS_KIWI_FRUIT_TEA_500ML",
+    "parent_id": "f2a28c1f-00b5-4d82-92eb-99f0c079d00d",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f9720f80-bd1d-49b4-a5e2-f63e14311ca1",
+    "name": "Banaras Kiwi Fruit  Tea 700ml",
+    "sku": "BANARAS_KIWI_FRUIT_TEA_700ML",
+    "parent_id": "f2a28c1f-00b5-4d82-92eb-99f0c079d00d",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f2a28c1f-00b5-4d82-92eb-99f0c079d00d",
+    "name": "Banaras Kiwi Fruit Tea",
+    "sku": "BANARAS_KIWI_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "1834c5f4-fb6d-4b78-af5e-563690d3b994",
+    "name": "Banaras Lemon  Fruit Tea 500ml",
+    "sku": "BANARAS_LEMON_FRUIT_TEA_500ML",
+    "parent_id": "12c13b8b-1503-44ef-80ef-0a74a282374d",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "312caeee-d2f6-41db-b1f4-1bfc5247bb35",
+    "name": "Banaras Lemon Fruit  Tea 700ml",
+    "sku": "BANARAS_LEMON_FRUIT_TEA_700ML",
+    "parent_id": "12c13b8b-1503-44ef-80ef-0a74a282374d",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "12c13b8b-1503-44ef-80ef-0a74a282374d",
+    "name": "Banaras Lemon Fruit Tea",
+    "sku": "BANARAS_LEMON_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "479364d1-e3b0-498a-81a4-bb9ce0f5139d",
+    "name": "Banaras Lychee  Fruit Tea 500ml",
+    "sku": "BANARAS_LYCHEE_FRUIT_TEA_500ML",
+    "parent_id": "0baca21d-e552-41c8-a6a7-f6c3914451d2",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "1de69641-99eb-41cc-86bc-942f1a0de487",
+    "name": "Banaras Lychee Fruit  Tea 700ml",
+    "sku": "BANARAS_LYCHEE_FRUIT_TEA_700ML",
+    "parent_id": "0baca21d-e552-41c8-a6a7-f6c3914451d2",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "0baca21d-e552-41c8-a6a7-f6c3914451d2",
+    "name": "Banaras Lychee Fruit Tea",
+    "sku": "BANARAS_LYCHEE_FRUIT_TEA_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "c2bd57df-a5e0-4ef8-a926-cac4f4c54557",
+    "name": "Banaras Lychee Milk 500ml",
+    "sku": "BANARAS_LYCHEE_MILK_500ML",
+    "parent_id": "d231c6d0-2f02-4e8e-a534-e1e0c619a5f4",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "29fb5773-7867-442e-8cc3-ccfcebdfaec8",
+    "name": "Banaras Lychee Milk 700ml",
+    "sku": "BANARAS_LYCHEE_MILK_700ML",
+    "parent_id": "d231c6d0-2f02-4e8e-a534-e1e0c619a5f4",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d231c6d0-2f02-4e8e-a534-e1e0c619a5f4",
+    "name": "Banaras Lychee Milk Tea",
+    "sku": "BANARAS_LYCHEE_MILK_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "85bdc775-cf8a-4f17-b6e1-fc0869836898",
+    "name": "Banaras Lychee and Passion Fruit Tea",
+    "sku": "BANARAS_LYCHEE_PASSION_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "be4ff733-d712-41b6-a08b-cf461a2a926f",
+    "name": "Banaras Lychee and Passion Fruit Tea 500ml",
+    "sku": "BANARAS_LYCHEE_PASSION_FRUIT_TEA_500ML",
+    "parent_id": "85bdc775-cf8a-4f17-b6e1-fc0869836898",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "fadf25a7-b75a-44b8-942a-6b347b352849",
+    "name": "Banaras Lychee and Passion Fruit Tea 700ml",
+    "sku": "BANARAS_LYCHEE_PASSION_FRUIT_TEA_700ML",
+    "parent_id": "85bdc775-cf8a-4f17-b6e1-fc0869836898",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "a273a51e-0891-436a-8353-a890162ad29a",
+    "name": "Banaras Mango & Lychee Fruit  Tea 700ml",
+    "sku": "BANARAS_MANGO_LYCHEE_FRUIT_TEA_700ML",
+    "parent_id": "ad314e47-42f2-40dc-924d-211ea03a6595",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "ad314e47-42f2-40dc-924d-211ea03a6595",
+    "name": "Banaras Mango & Lychee Fruit Tea",
+    "sku": "BANARAS_MANGO_LYCHEE_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "c73fb119-3f96-43d6-969c-5b1eeb214fe2",
+    "name": "Banaras Mango & Lychee Fruit Tea 500ml",
+    "sku": "BANARAS_MANGO_LYCHEE_FRUIT_TEA_500ML",
+    "parent_id": "ad314e47-42f2-40dc-924d-211ea03a6595",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d50cb0c9-9286-4d74-8254-8387aa4074b2",
+    "name": "Banaras Mango Fruit  Tea 700ml",
+    "sku": "BANARAS_MANGO_FRUIT_TEA_700ML",
+    "parent_id": "f6996c7d-ae65-4aa4-87fd-17736a32b224",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f6996c7d-ae65-4aa4-87fd-17736a32b224",
+    "name": "Banaras Mango Fruit Tea",
+    "sku": "BANARAS_MANGO_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "e7ab15da-9bf3-4c27-af06-f0fd2b990b35",
+    "name": "Banaras Mango Fruit Tea 500ml",
+    "sku": "BANARAS_MANGO_FRUIT_TEA_500ML",
+    "parent_id": "f6996c7d-ae65-4aa4-87fd-17736a32b224",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "9b3fe156-b858-4198-8f14-d2395b7b03d8",
+    "name": "Banaras Mango Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "ecab00ef-1078-4f5e-965d-324e0aa8c72e",
+    "name": "Banaras Matcha Green Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "60926173-7bb6-42f6-bcc7-e2c255c65982",
+    "name": "Banaras Navaab Paan",
+    "sku": "BANARAS_NAVAAB_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "5648edf2-d004-4eb7-8cce-fc2c56a12286",
+    "name": "Banaras Paan Falooda",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "666d9c98-8338-439c-a9ba-18a93a760e4a",
+    "name": "Banaras Passion & Mango Fruit Tea",
+    "sku": "BANARAS_PASSION_MANGO_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "29bbc4c7-1072-4c78-ba38-658fcd061a84",
+    "name": "Banaras Passion & Mango Fruit Tea 500ml",
+    "sku": "BANARAS_PASSION_MANGO_FRUIT_TEA_500ML",
+    "parent_id": "666d9c98-8338-439c-a9ba-18a93a760e4a",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "0131642d-5344-4c3b-8f42-fd6d32117f31",
+    "name": "Banaras Passion & Mango Fruit Tea 700ml",
+    "sku": "BANARAS_PASSION_MANGO_FRUIT_TEA_700ML",
+    "parent_id": "666d9c98-8338-439c-a9ba-18a93a760e4a",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "a298e5c2-ccf8-4ea7-ba54-4d3b9703e29f",
+    "name": "Banaras Passion Fruit  Tea 700ml",
+    "sku": "BANARAS_PASSION_FRUIT_700ML",
+    "parent_id": "06c6691f-fe45-4103-ae09-e576b0731e93",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "06c6691f-fe45-4103-ae09-e576b0731e93",
+    "name": "Banaras Passion Fruit Tea",
+    "sku": "BANARAS_PASSION_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "7a494b82-0a9d-40a7-a123-26441f069afd",
+    "name": "Banaras Passion Fruit Tea 500ml",
+    "sku": "BANARAS_PASSION_FRUIT_500ML",
+    "parent_id": "06c6691f-fe45-4103-ae09-e576b0731e93",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "da835949-64e9-42e1-b3eb-a7709e7deff8",
+    "name": "Banaras Peach & Lychee Fruit Tea",
+    "sku": "BANARAS_PEACH_LYCHEE_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d459e5a7-3a38-41b3-b55e-b06b3ca0b3da",
+    "name": "Banaras Peach & Lychee Fruit Tea 500ml",
+    "sku": "BANARAS_PEACH_LYCHEE_FRUIT_TEA_500ML",
+    "parent_id": "da835949-64e9-42e1-b3eb-a7709e7deff8",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "df9a0d9d-f616-422d-9beb-1da91802fdb8",
+    "name": "Banaras Peach & Lychee Fruit Tea 700ml",
+    "sku": "BANARAS_PEACH_LYCHEE_FRUIT_TEA_700ML",
+    "parent_id": "da835949-64e9-42e1-b3eb-a7709e7deff8",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "06503c28-d014-4a77-93c9-cd3e78c671ce",
+    "name": "Banaras Peach Fruit  Tea 700ml",
+    "sku": "BANARAS_PEACH_FRUIT_TEA_700ML",
+    "parent_id": "6ef7009d-6d7b-4309-bf6b-78c717ca25b8",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "6ef7009d-6d7b-4309-bf6b-78c717ca25b8",
+    "name": "Banaras Peach Fruit Tea",
+    "sku": "BANARAS_PEACH_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d88ec396-e0c8-4552-a130-6580ad907e95",
+    "name": "Banaras Peach Fruit Tea 500ml",
+    "sku": "BANARAS_PEACH_FRUIT_TEA_500ML",
+    "parent_id": "6ef7009d-6d7b-4309-bf6b-78c717ca25b8",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "efd8c815-5ee0-4053-8517-a504912db696",
+    "name": "Banaras Pineapple  Fruit Tea 500ml",
+    "sku": "BANARAS_PINEAPPLE_FRUIT_TEA_500ML",
+    "parent_id": "899ed587-264d-4c77-b022-e52064564656",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "b1e2a939-a259-4f95-828d-fbfc5e8cf63c",
+    "name": "Banaras Pineapple Fruit  Tea 700ml",
+    "sku": "BANARAS_PINEAPPLE_FRUIT_TEA_700ML",
+    "parent_id": "899ed587-264d-4c77-b022-e52064564656",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "899ed587-264d-4c77-b022-e52064564656",
+    "name": "Banaras Pineapple Fruit Tea",
+    "sku": "BANARAS_PINEAPPLE_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "6f911695-8e35-41b5-b0ee-9a3f48044b9f",
+    "name": "Banaras Pineapple and Watermelon  Tea 500ml",
+    "sku": "BANARAS_PINEAPPLE_AND_WATERMELON_FRUIT_TEA_500ML",
+    "parent_id": "5c606a6f-63b1-4ac8-a608-64d27e165250",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "fb07c190-136c-4ff6-8237-2236848a0a29",
+    "name": "Banaras Pineapple and Watermelon  Tea 700ml",
+    "sku": "BANARAS_PINEAPPLE_AND_WATERMELON_FRUIT_TEA_700ML",
+    "parent_id": "5c606a6f-63b1-4ac8-a608-64d27e165250",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "5c606a6f-63b1-4ac8-a608-64d27e165250",
+    "name": "Banaras Pineapple and Watermelon Tea",
+    "sku": "BANARAS_PINEAPPLE_AND_WATERMELON_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "fabbe40b-6ed5-4d8b-af57-e251f8228ada",
+    "name": "Banaras Rajwari ICE",
+    "sku": "BANARAS_RAJWARI_ICE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8e475710-dee5-4e5a-b252-88969c89074f",
+    "name": "Banaras Raspberry Fruit  Tea 700ml (Copy)",
+    "sku": "BANARAS_RASPBERRY_FRUIT_TEA_700ML_1",
+    "parent_id": "f47d6e2b-da98-413a-8882-869d5a995124",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f47d6e2b-da98-413a-8882-869d5a995124",
+    "name": "Banaras Raspberry Fruit Tea",
+    "sku": "BANARAS_RASPBERRY_FRUIT_TEA_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "edd166b6-b56c-49dc-8b10-06cf9c9b5196",
+    "name": "Banaras Raspberry Fruit Tea 500ml (Copy)",
+    "sku": "BANARAS_RASPBERRY_FRUIT_TEA_500ML_1",
+    "parent_id": "f47d6e2b-da98-413a-8882-869d5a995124",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "2bc182d6-08a9-4083-b968-15d44e3643ad",
+    "name": "Banaras Rose Fruit  Tea 700ml",
+    "sku": "BANARAS_ROSE_FRUIT_TEA_700ML",
+    "parent_id": "37a43586-216f-488f-b288-9d390d9db085",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "37a43586-216f-488f-b288-9d390d9db085",
+    "name": "Banaras Rose Fruit Tea",
+    "sku": "BANARAS_ROSE_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f10fadff-9fc1-4ef6-9336-dccb3d82ea25",
+    "name": "Banaras Rose Fruit Tea 500ml",
+    "sku": "BANARAS_ROSE_FRUIT_TEA_500ML",
+    "parent_id": "37a43586-216f-488f-b288-9d390d9db085",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "aebeb4bf-a85f-4b81-9e7d-7cc99646dcca",
+    "name": "Banaras Special ICE Dish",
+    "sku": "BANARAS_SPECIAL_ICE_DISH",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "20066694-e33f-4663-93d0-3ee3fd35abd9",
+    "name": "Banaras Strawberry  Milk 500ml",
+    "sku": "BANARAS_STRAWBERRY_MILK_500ML",
+    "parent_id": "49af191b-5641-4f92-b8b0-db0b548ecb63",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "ed7eeb80-9ff8-43bf-a4f0-e39055fbb65b",
+    "name": "Banaras Strawberry & Lychee Fruit Tea",
+    "sku": "BANARAS_STRAWBERRY_LYCHEE_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "eed07938-70b1-404e-a3e8-201ed4ea3b8c",
+    "name": "Banaras Strawberry & Lychee Fruit Tea  500ml",
+    "sku": "BANARAS_STRAWBERRY_LYCHEE_FRUIT_TEA_500ML",
+    "parent_id": "ed7eeb80-9ff8-43bf-a4f0-e39055fbb65b",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "e2d9b6a8-51f5-4d32-a052-1b14a3e77a8d",
+    "name": "Banaras Strawberry & Lychee Fruit Tea 700ml",
+    "sku": "BANARAS_STRAWBERRY_LYCHEE_FRUIT_TEA_700ML",
+    "parent_id": "ed7eeb80-9ff8-43bf-a4f0-e39055fbb65b",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "a0405db5-bc0e-4d55-9c7f-13395d7cf529",
+    "name": "Banaras Strawberry Fruit  Tea 700ml",
+    "sku": "BANARAS_STRAWBERRY_FRUIT_TEA_700ML",
+    "parent_id": "b2805296-d2cc-4d7d-b28b-62107bd60a1c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "b2805296-d2cc-4d7d-b28b-62107bd60a1c",
+    "name": "Banaras Strawberry Fruit Tea",
+    "sku": "BANARAS_STRAWBERRY_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f733378d-d31d-4586-a07d-7c3ee0e068fb",
+    "name": "Banaras Strawberry Fruit Tea 500ml",
+    "sku": "BANARAS_STRAWBERRY_FRUIT_TEA_500ML",
+    "parent_id": "b2805296-d2cc-4d7d-b28b-62107bd60a1c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "fed4d24f-4c59-49e6-8807-7cb816eab997",
+    "name": "Banaras Strawberry Milk 700ml",
+    "sku": "BANARAS_STRAWBERRY_MILK_700ML",
+    "parent_id": "49af191b-5641-4f92-b8b0-db0b548ecb63",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "49af191b-5641-4f92-b8b0-db0b548ecb63",
+    "name": "Banaras Strawberry Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "9c3d4f07-cc8a-409c-8047-16dff513c70e",
+    "name": "Banaras Taro 500ml",
+    "sku": "BANARAS_TARO_500ml",
+    "parent_id": "acfc8ec7-71ec-45a7-a7eb-85b2a1b556ee",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "80b83255-a747-418f-b85b-708431157c34",
+    "name": "Banaras Taro 700ml",
+    "sku": "BANARAS_TARO_700ml",
+    "parent_id": "acfc8ec7-71ec-45a7-a7eb-85b2a1b556ee",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "acfc8ec7-71ec-45a7-a7eb-85b2a1b556ee",
+    "name": "Banaras Taro Milk Tea",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "51ec7336-017a-4d8f-b9af-27efdb5a908c",
+    "name": "Banaras Traditional",
+    "sku": "BANARAS_TRADITIONAL_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1211249e-3f5e-40a0-8ab5-caba46d65bf4",
+    "name": "Banaras Watermelon  Fruit Tea 500ml",
+    "sku": "BANARAS_WATERMELON_FRUIT_TEA_500ML",
+    "parent_id": "bae801d2-889a-4e66-8891-396aaccbb88a",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "886125bf-b905-4f60-9ce1-8005e00f4661",
+    "name": "Banaras Watermelon Fruit  Tea 700ml",
+    "sku": "BANARAS_WATERMELON_FRUIT_TEA_700ML",
+    "parent_id": "bae801d2-889a-4e66-8891-396aaccbb88a",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "bae801d2-889a-4e66-8891-396aaccbb88a",
+    "name": "Banaras Watermelon Fruit Tea",
+    "sku": "BANARAS_WATERMELON_FRUIT_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "5dabd689-5150-4c5f-8163-5a5675c6e576",
+    "name": "Banaras Watermelon Milk 500ml",
+    "sku": "BANARAS_WATERMELON_MILK_500ML",
+    "parent_id": "d31515be-ad68-41be-b360-7ceda5a73935",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "2b732d99-d518-4ca8-b829-b5db2dd0c588",
+    "name": "Banaras Watermelon Milk 700ml",
+    "sku": "BANARAS_WATERMELON_MILK_700ML",
+    "parent_id": "d31515be-ad68-41be-b360-7ceda5a73935",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "d31515be-ad68-41be-b360-7ceda5a73935",
+    "name": "Banaras Watermelon Milk Tea",
+    "sku": "BANARAS_WATERMELON_MILK_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "c88a5a69-fe76-4cf7-927c-94a4521343a6",
+    "name": "Berry Blast Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e8a9ac22-a92f-4929-9b2b-d81faaebd2f6",
+    "name": "Bombay Bad Boy",
+    "sku": "BOMBAY_bad_boy_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "97b83b19-3eae-4bcb-b72c-e0abe9b48d7f",
+    "name": "Bombay Imperial Paan",
+    "sku": "BOMBAY_IMPERIAL_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "98fd18d7-2374-444f-b67c-4d8f6750b5fb",
+    "name": "Bombay Magai Paan",
+    "sku": "BOMBAY_MAGAI_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f48129ba-e8c0-426e-bc0f-80da182edd74",
+    "name": "Bombay Magai Rajwari Paan",
+    "sku": "BOMBAY_MAGAI_RAJWARI_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "fea25a8c-635f-4537-8aad-efb6d07c2d6d",
+    "name": "Bombay Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0883beb4-902d-467d-b37e-b8499b5790e2",
+    "name": "Boost Latte",
+    "sku": "BOOST_LATTE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "fb65f9b7-e88e-4ad9-887b-89070764430e",
+    "name": "CASHEW RAISIN 1 Litre",
+    "sku": "CASHEW_RAISIN_1_LITRE_1",
+    "parent_id": "2ed0fdc8-7890-4498-a170-06eed92460bf",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "287b5b63-9ca8-4f70-a5b7-4d63c76a3cb8",
+    "name": "CASHEW RAISIN 1 Scoop Scoop",
+    "sku": "CASHEW_RAISIN_1_SCOOP_SCOOP_1",
+    "parent_id": "2ed0fdc8-7890-4498-a170-06eed92460bf",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c90fc545-feb9-4376-a372-d2577dc3b261",
+    "name": "CASHEW RAISIN 1 Scoop Waffle Cone",
+    "sku": "CASHEW_RAISIN_1_SCOOP_WAFFLE_CONE_1",
+    "parent_id": "2ed0fdc8-7890-4498-a170-06eed92460bf",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "268f4a25-b91e-4271-b0a3-d98b3f7ed5c7",
+    "name": "CASHEW RAISIN 2 Scoops Scoop",
+    "sku": "CASHEW_RAISIN_2_SCOOPS_SCOOP_1",
+    "parent_id": "2ed0fdc8-7890-4498-a170-06eed92460bf",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6691011c-797b-47ab-9ee8-0b62111787ce",
+    "name": "CASHEW RAISIN 2 Scoops Waffle Cone",
+    "sku": "CASHEW_RAISIN_2_SCOOPS_WAFFLE_CONE_1",
+    "parent_id": "2ed0fdc8-7890-4498-a170-06eed92460bf",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2ed0fdc8-7890-4498-a170-06eed92460bf",
+    "name": "CASHEW RAISIN INDULGENCE",
+    "sku": "CASHEW RAISIN INDULGENCE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7c2a021e-6475-427e-9a85-aee79f890b77",
+    "name": "CHOCO CHIP 1 Litre",
+    "sku": "CHOCO_CHIP_1_LITRE_1",
+    "parent_id": "f47aa784-825d-4e5d-8f2e-88b0e86a9710",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "faa247ad-fd59-47bb-8bee-c3d314e08773",
+    "name": "CHOCO CHIP 1 Scoop Scoop",
+    "sku": "CHOCO_CHIP_1_SCOOP_SCOOP_1",
+    "parent_id": "f47aa784-825d-4e5d-8f2e-88b0e86a9710",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "22414f82-4b2d-427c-8427-740dc449d48e",
+    "name": "CHOCO CHIP 1 Scoop Waffle Cone",
+    "sku": "CHOCO_CHIP_1_SCOOP_WAFFLE_CONE_1",
+    "parent_id": "f47aa784-825d-4e5d-8f2e-88b0e86a9710",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "99d0a679-0b2e-439f-9b62-d2ae6fc2ac99",
+    "name": "CHOCO CHIP 2 Scoops Scoop",
+    "sku": "CHOCO_CHIP_2_SCOOPS_SCOOP_1",
+    "parent_id": "f47aa784-825d-4e5d-8f2e-88b0e86a9710",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "df6b9b31-efd5-4048-9f64-09e70356b611",
+    "name": "CHOCO CHIP 2 Scoops Waffle Cone",
+    "sku": "CHOCO_CHIP_2_SCOOPS_WAFFLE_CONE_1",
+    "parent_id": "f47aa784-825d-4e5d-8f2e-88b0e86a9710",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f47aa784-825d-4e5d-8f2e-88b0e86a9710",
+    "name": "CHOCO CHIP FANTASY",
+    "sku": "CHOCO_CHIP_FANTASY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7bb5eeb2-07fe-4766-bcac-fc6ae14397f7",
+    "name": "COOKIE DELIGHT 1 Litre",
+    "sku": "COOKIE_DELIGHT_1_LITRE_1",
+    "parent_id": "5f1be3e2-3c5b-4951-be60-2d4a7b72c8ab",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "226a181b-b218-4116-a4de-1ef3cf721f12",
+    "name": "COOKIE DELIGHT 1 Scoop Scoop",
+    "sku": "COOKIE_DELIGHT_1_SCOOP_SCOOP_1",
+    "parent_id": "5f1be3e2-3c5b-4951-be60-2d4a7b72c8ab",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0b7fdd68-e195-43cd-a564-7dddf254837d",
+    "name": "COOKIE DELIGHT 1 Scoop Waffle Cone",
+    "sku": "COOKIE_DELIGHT_1_SCOOP_WAFFLE_CONE_1",
+    "parent_id": "5f1be3e2-3c5b-4951-be60-2d4a7b72c8ab",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2a166338-faf2-463a-bef3-8c67cffcf37c",
+    "name": "COOKIE DELIGHT 2 Scoops Scoop",
+    "sku": "COOKIE_DELIGHT_2_SCOOPS_SCOOP_1",
+    "parent_id": "5f1be3e2-3c5b-4951-be60-2d4a7b72c8ab",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7a0c6ba2-fdce-42ba-aedc-f1ed0b5b23e3",
+    "name": "COOKIE DELIGHT 2 Scoops Waffle Cone",
+    "sku": "COOKIE_DELIGHT_2_SCOOPS_WAFFLE_CONE_1",
+    "parent_id": "5f1be3e2-3c5b-4951-be60-2d4a7b72c8ab",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "5f1be3e2-3c5b-4951-be60-2d4a7b72c8ab",
+    "name": "COOKIE DELIGHT SUPREME",
+    "sku": "COOKIE_DELIGHT",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "71476486-cf77-430e-8489-9382e04ed1cb",
+    "name": "Caprison Orange Pouch",
+    "sku": "CAPRISON_ORANGE_POUCH",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "82848c12-f381-4d51-a414-1d3907340700",
+    "name": "Chocolate Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "480a7795-8cdb-4187-baca-c42c32d04fc8",
+    "name": "Chocolate Paan",
+    "sku": "CHOCOLATE_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "750ebddb-42e4-4383-94f4-318b8e569279",
+    "name": "Chocomel",
+    "sku": "CHOCOMEL",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1cf5fbc2-da2f-4940-903b-2d81c2e59ce5",
+    "name": "Chupa Candy",
+    "sku": "CHUPA_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d1b92954-d8ce-494f-83ba-f0d1eb85d511",
+    "name": "Chutki",
+    "sku": "CHUTKI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e52022d8-7f34-4b92-a913-ac4ad7572246",
+    "name": "Coke 330ml",
+    "sku": "COKE_330ML",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6c92ef1f-a8ad-45ea-8a83-8dc9031cd865",
+    "name": "Cola Sticks",
+    "sku": "COLA_STICKS",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "171ff0fc-1f79-47e2-a9fc-6fe1b5b5c622",
+    "name": "Costa Americano mini",
+    "sku": "BANARAS_AMERICANO_MINI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d3bfd281-4d53-4bda-bd58-34645e9e7b60",
+    "name": "Costa Cappuccino",
+    "sku": "CAPPUCCINO",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6d185ddc-50fc-4513-9d84-924cf02cb767",
+    "name": "Costa Caramel Latte",
+    "sku": "COSTA_CARAMEL_LATTE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2dc126aa-c2d1-467c-8b21-0dbf7b9c7844",
+    "name": "Costa Latte",
+    "sku": "COSTA_LATTE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3f820d0b-7c7d-4452-b78b-b6e258daf16b",
+    "name": "Costa iced Caramel Latte",
+    "sku": "COSTA_ICED_CARAMEL_LATTE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "67efb90b-652b-4eba-8524-fb6879f33e54",
+    "name": "Coupon",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f9735a74-bd03-4d0e-a6d6-14f721f77392",
+    "name": "Culcatti Khara Bhura - 135",
+    "sku": "CULCATTI_KHARA_BHURA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6aaacda3-2da8-431d-b9ba-128a486d1344",
+    "name": "Culcatti Khara Haraa - 120",
+    "sku": "CULCATTI_KHARA_HARAA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e6babbfa-d101-4e68-a9ab-4a5eb7f279e0",
+    "name": "Culcatti Khara Laal-300",
+    "sku": "CULCATTI_KHARA_LAAL",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1995feaa-50a6-44b3-b1ca-3688365f2a0a",
+    "name": "Diet Coke 330ml",
+    "sku": "DIET_COKE_330ML",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3c81dd7c-2eb2-4ea5-a5f2-61a10f3939d8",
+    "name": "Disco Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f38477c1-d5bf-49bb-bad1-2b515e0bcb2e",
+    "name": "Divine Vanilla Elixir",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "53ce6f3b-6ba5-4260-bef8-89ca60220de8",
+    "name": "Dry Leaf 20",
+    "sku": "DRY_LEAF_20",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "aef6746f-0349-48fd-91d0-de8828a1adea",
+    "name": "Elaichi Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0d30ec44-1090-404d-9abc-76af9eb23bba",
+    "name": "Elaichi Paan",
+    "sku": "ELAICHI_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "da9a2150-2599-401a-ad78-4715ff67124b",
+    "name": "Elaichi Supari Mix",
+    "sku": "ELAICHI_SUPARI_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "75eca77c-0a49-4922-a826-e0b7fa340a3f",
+    "name": "Evian Water 500ml",
+    "sku": "EVIAN_WATER_500ML",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "09615193-e3b6-4fe9-a5fa-086cbe9ffbdd",
+    "name": "Fan Candy",
+    "sku": "FAN_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "ea91a07f-11c8-4a12-8921-50ccefa95a7a",
+    "name": "Fire Paan",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9469e3d7-fa83-40c5-a745-cc8bde2a5aea",
+    "name": "Ginger Candy",
+    "sku": "GINGER_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d0cf6a47-2d4b-48e5-831c-b698cf6b360c",
+    "name": "Ginger Tea",
+    "sku": "GINGER_TEA_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "aadfd8d4-12f1-4fc4-a6d0-98e254485d96",
+    "name": "Ginger Tea Large",
+    "sku": "GINGER_TEA_LARGE_1",
+    "parent_id": "d0cf6a47-2d4b-48e5-831c-b698cf6b360c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9e9d3cf8-d801-419f-af6b-fb9197ebf6be",
+    "name": "Ginger Tea Medium",
+    "sku": "GINGER_TEA_MEDIUM_1",
+    "parent_id": "d0cf6a47-2d4b-48e5-831c-b698cf6b360c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "5b452beb-677f-4dd2-8d22-c7a05b3c2db5",
+    "name": "Ginger Tea Small",
+    "sku": "GINGER_TEA_SMALL_1",
+    "parent_id": "d0cf6a47-2d4b-48e5-831c-b698cf6b360c",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "62e5eca7-e162-4c83-bf63-3583ba16a750",
+    "name": "Gotli Chips",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8833d2d2-6950-4512-8132-521682825688",
+    "name": "Gotli Mukhwas",
+    "sku": "GOTLI_MUKHWAS",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "915f1464-084c-463a-95bb-511adf2e7aec",
+    "name": "Gulab Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "176bf432-2ca7-4a11-9eb5-3fe63bf91f82",
+    "name": "Gutkha",
+    "sku": "GUTKH",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d1fcc270-874a-4e23-b298-d5f8d30f256e",
+    "name": "Gutkha - 120 Mava",
+    "sku": "GUTKHA_120_MAVA_1",
+    "parent_id": "176bf432-2ca7-4a11-9eb5-3fe63bf91f82",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0461f5b7-c9bb-4a81-b1be-81f6b20d7617",
+    "name": "Gutkha - 135 Mava",
+    "sku": "GUTKHA_135_MAVA",
+    "parent_id": "176bf432-2ca7-4a11-9eb5-3fe63bf91f82",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c44ab0fd-91ce-46fe-98f1-91843a6f3341",
+    "name": "Gutkha - 300 Mava",
+    "sku": "GUTKHA_300_MAVA",
+    "parent_id": "176bf432-2ca7-4a11-9eb5-3fe63bf91f82",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a4adbde5-e48c-4119-8f77-b8915a38c45e",
+    "name": "Gutkha - BABA REMIX",
+    "sku": "GUTKHA_BABA_REMIX",
+    "parent_id": "176bf432-2ca7-4a11-9eb5-3fe63bf91f82",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "55c1b2aa-7bf9-4124-8ce5-062d2d140aaa",
+    "name": "Gutkha - RMD Red",
+    "sku": "GUTKHA_3",
+    "parent_id": "176bf432-2ca7-4a11-9eb5-3fe63bf91f82",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8155f78a-269d-4c02-a710-2cf5e4fc0566",
+    "name": "Healthy Mix",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "517fc114-123d-4980-b45b-77392abc0bec",
+    "name": "J2O",
+    "sku": "J2O",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e93008d7-acd0-4446-8a35-e560537dbcba",
+    "name": "Jal Jeera Shot",
+    "sku": "JAL_JEERA_SHOT",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c5ba6bc0-d0b6-4f22-a97e-1ce24c5699f5",
+    "name": "Jal jeera packets",
+    "sku": "JAL_JEERA_PACKETS",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f62bc454-a5e9-4e6f-97d9-de29c2af63dd",
+    "name": "Jamnagri Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "16e7a7fa-faaa-4d29-b628-fac83cccec4d",
+    "name": "Jasmine Paan mix",
+    "sku": "JASMINE_PAAN_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e3b237e9-9554-4992-bd81-b76adfe8de53",
+    "name": "Jasmine Paan mix 200gm",
+    "sku": "JASMINE_PAAN_MIX_200GM",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "34c9a1c4-36d2-41f0-8bb3-0c84a9cf3965",
+    "name": "Jeera Goli Soda",
+    "sku": "JEERA_GOLI_SODA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d5554842-ff93-434f-8425-7dd430a9acb2",
+    "name": "Jeera Masala Soda",
+    "sku": "JEERA_MASALA_SODA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a97259ce-1493-480a-be96-6064b97e4fb9",
+    "name": "Kabuli Chana",
+    "sku": "KABULI_CHANA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d889c53e-ac37-402e-970b-81fa0b23ccd5",
+    "name": "Kairi Panha Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "31a6e94c-c67c-4207-b6ec-a1eccf6aa90e",
+    "name": "Kalkatti Leaf",
+    "sku": "KALKATTI_LEAF",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7e29e1b9-58d8-421a-86b4-2c7201877fc9",
+    "name": "Kalkatti Rajwadi Supari",
+    "sku": "KALKATTI_RAJWARI_SUPARI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a2bfa3a1-cebc-4758-aa6d-cc8c7f1963af",
+    "name": "Kalkatti Supari Paan",
+    "sku": "KALKATTI_SUPARI_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2cde61c3-cc7c-48d2-88e6-29ead56676e2",
+    "name": "Kalla Khatta Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "6c991c7d-c73c-4502-bca6-64b15eeed9e4",
+    "name": "Kashmira Jeera Masala",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c4e01eb3-5431-40ef-895b-c04644bd3252",
+    "name": "Kesar Dry Fruit Falooda",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f831fcd6-84a9-46ac-aa8c-3cfa5232e3ba",
+    "name": "Kesar Dry Fruit Thandai",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7b6c455f-6158-4abe-8862-5ed6f6aa68dc",
+    "name": "Kesar Elachi Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "86c00630-0a83-4d73-b094-3f269fc210e3",
+    "name": "Kesar Gulab Milk",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "4c5695a2-fd8a-4863-bbc5-17f5a8eb9918",
+    "name": "Kesar Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "241aa86d-f0ca-4635-bf4a-8f73eca10b1e",
+    "name": "Kidsmania Grab pop",
+    "sku": "KIDSMANIA_GRAB_POP",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "03aaa4b7-2812-47a3-8fe4-0d7d2805f318",
+    "name": "Kirkland Water 500ml",
+    "sku": "KIRKLAND_WATER_500ML",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a7b720b7-197f-4ca7-8b1e-e403dce22f1e",
+    "name": "Kokam Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "2c233f03-7b66-484d-9448-c620053c0f79",
+    "name": "Kulfi Falooda",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "5d9b0115-b70e-4cb7-97f1-8bb59479e6b0",
+    "name": "LIBERTY NUT BLEND",
+    "sku": "LIBERTY_NUT_BLEND",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2dc3c0e7-9546-43be-af84-786dfd4b7169",
+    "name": "LIBERTY NUT BLEND 1 Litre",
+    "sku": "LIBERTY_NUT_BLEND_1_LITRE",
+    "parent_id": "5d9b0115-b70e-4cb7-97f1-8bb59479e6b0",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "043d6cd9-899b-4914-bc5c-b1d1e1a79401",
+    "name": "LIBERTY NUT BLEND 1 Scoop Scoop",
+    "sku": "LIBERTY_NUT_BLEND_1_SCOOP_SCOOP",
+    "parent_id": "5d9b0115-b70e-4cb7-97f1-8bb59479e6b0",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "07138580-c136-4eba-aa23-551db61cce5a",
+    "name": "LIBERTY NUT BLEND 1 Scoop Waffle Cone",
+    "sku": "LIBERTY_NUT_BLEND_1_SCOOP_WAFFLE_CONE",
+    "parent_id": "5d9b0115-b70e-4cb7-97f1-8bb59479e6b0",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "598c2e46-01a8-4f2f-a8ee-a3e410f90d3c",
+    "name": "LIBERTY NUT BLEND 2 Scoops Scoop",
+    "sku": "LIBERTY_NUT_BLEND_2_SCOOPS_SCOOP",
+    "parent_id": "5d9b0115-b70e-4cb7-97f1-8bb59479e6b0",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e53d6c9c-f74f-427b-ad86-1c00b265efbc",
+    "name": "LIBERTY NUT BLEND 2 Scoops Waffle Cone",
+    "sku": "LIBERTY_NUT_BLEND_2_SCOOPS_WAFFLE_CONE",
+    "parent_id": "5d9b0115-b70e-4cb7-97f1-8bb59479e6b0",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "68bc128f-0b54-4974-bfce-3a26a8b39172",
+    "name": "LOTUS BISCOFF",
+    "sku": "LOTUS BISCOFF",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "25873445-3e38-4845-b206-2ebb64de17c3",
+    "name": "LOTUS BISCOFF 1 Litre",
+    "sku": "LOTUS_BISCOFF_1_LITRE_1",
+    "parent_id": "68bc128f-0b54-4974-bfce-3a26a8b39172",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d05fa2b1-6ae9-4493-86ea-fafe98268787",
+    "name": "LOTUS BISCOFF 1 Scoop Scoop",
+    "sku": "LOTUS_BISCOFF_1_SCOOP_SCOOP_1",
+    "parent_id": "68bc128f-0b54-4974-bfce-3a26a8b39172",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "900178e4-2085-4da4-b181-f58aa28413b4",
+    "name": "LOTUS BISCOFF 1 Scoop Waffle Cone",
+    "sku": "LOTUS_BISCOFF_1_SCOOP_WAFFLE_CONE_1",
+    "parent_id": "68bc128f-0b54-4974-bfce-3a26a8b39172",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b5e01b5c-946c-4648-95f3-9ac8d806d801",
+    "name": "LOTUS BISCOFF 2 Scoops Scoop",
+    "sku": "LOTUS_BISCOFF_2_SCOOPS_SCOOP_1",
+    "parent_id": "68bc128f-0b54-4974-bfce-3a26a8b39172",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "39e6242a-b60c-4ff6-a836-fadd8f39a98c",
+    "name": "LOTUS BISCOFF 2 Scoops Waffle Cone",
+    "sku": "LOTUS_BISCOFF_2_SCOOPS_WAFFLE_CONE_1",
+    "parent_id": "68bc128f-0b54-4974-bfce-3a26a8b39172",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "dd7472fd-7b66-4916-a8b6-f6073f2219e9",
+    "name": "Large Paan Shot - 500ml",
+    "sku": "PAAN_SHOT_LARGE_500ml",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "80bfce98-7da0-4d1f-a59f-932e13b6ff96",
+    "name": "Limca",
+    "sku": "LIMCA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a71a105f-656a-4662-a4aa-d1f40d179e9b",
+    "name": "Lotus Biscoff  Shake",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "63b7a770-0a08-4039-80d5-66b43b58fe79",
+    "name": "MAHARAJA'S TREAT",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "10764fa2-b617-4747-af52-e4ad5f6d0626",
+    "name": "MAHARAJA'S TREAT 1 Litre",
+    "sku": "",
+    "parent_id": "63b7a770-0a08-4039-80d5-66b43b58fe79",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1267204f-2850-42e9-84b2-bf6e3b40faee",
+    "name": "MAHARAJA'S TREAT 1 Scoop Scoop",
+    "sku": "",
+    "parent_id": "63b7a770-0a08-4039-80d5-66b43b58fe79",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "554e5efe-f27a-43d8-b366-7bee6e643ac1",
+    "name": "MAHARAJA'S TREAT 1 Scoop Waffle Cone",
+    "sku": "",
+    "parent_id": "63b7a770-0a08-4039-80d5-66b43b58fe79",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "64cd0397-eec4-4931-8cd2-8cea9c27aa8f",
+    "name": "MAHARAJA'S TREAT 2 Scoops Scoop",
+    "sku": "",
+    "parent_id": "63b7a770-0a08-4039-80d5-66b43b58fe79",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c8bf4e1f-d590-468a-bafc-829af2e828f3",
+    "name": "MAHARAJA'S TREAT 2 Scoops Waffle Cone",
+    "sku": "",
+    "parent_id": "63b7a770-0a08-4039-80d5-66b43b58fe79",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a984fc40-74a2-44d2-9e33-83c563b960b2",
+    "name": "MONARCH'S DELIGHT",
+    "sku": "MONARCH'S_DELIGHT",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "a1430553-3c68-45dc-b66b-2aa9e8b15266",
+    "name": "MONARCHS DELIGHT 1 Litre",
+    "sku": "MONARCHS_DELIGHT_1_LITRE_1",
+    "parent_id": "a984fc40-74a2-44d2-9e33-83c563b960b2",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f7de6fb2-99ff-4616-a7aa-25903f0d27a1",
+    "name": "MONARCHS DELIGHT 1 Scoop Scoop",
+    "sku": "MONARCHS_DELIGHT_1_SCOOP_SCOOP_1",
+    "parent_id": "a984fc40-74a2-44d2-9e33-83c563b960b2",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "846cb7d5-e2aa-4b92-8b6b-4b0b91600922",
+    "name": "MONARCHS DELIGHT 1 Scoop Waffle Cone",
+    "sku": "MONARCHS_DELIGHT_1_SCOOP_WAFFLE_CONE_1",
+    "parent_id": "a984fc40-74a2-44d2-9e33-83c563b960b2",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6990f4c7-b8d6-43d0-ad9e-f40358087af2",
+    "name": "MONARCHS DELIGHT 2 Scoops Scoop",
+    "sku": "MONARCHS_DELIGHT_2_SCOOPS_SCOOP_1",
+    "parent_id": "a984fc40-74a2-44d2-9e33-83c563b960b2",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3ead490d-5602-48b6-9967-3590895f768f",
+    "name": "MONARCHS DELIGHT 2 Scoops Waffle Cone",
+    "sku": "MONARCHS_DELIGHT_2_SCOOPS_WAFFLE_CONE_1",
+    "parent_id": "a984fc40-74a2-44d2-9e33-83c563b960b2",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "74dd017c-9af8-4fe5-b1a5-c392452cfea6",
+    "name": "Mango Jelly Cubes",
+    "sku": "MANGO_JELLY_CUBES",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "69d8dd9e-bc72-424c-8aa2-5e0b68ae00f4",
+    "name": "Mango Mood Candy",
+    "sku": "MANGO_MOOD_CANDY_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "bc762425-2548-4fa2-b6d0-608cf4269b07",
+    "name": "Masala Mango Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "c0fe4c55-e4ee-44eb-86ca-701d824b2c48",
+    "name": "Milka Shake 200ml",
+    "sku": "MILKA_SHAKE_200ML",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8759b4bf-25b3-4a9f-bd15-10efa9f5ede7",
+    "name": "Mini ICE Gola",
+    "sku": "MINI_ICE_GOLA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b5b9053c-4209-4e28-83be-a5572398efa7",
+    "name": "Mint Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "318cabee-1173-4bc7-9ff9-71db0567c093",
+    "name": "Mix Jintaan Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "694c6752-1290-468f-a807-5617a2137f1b",
+    "name": "Mogu Lychee",
+    "sku": "MOGU_LYCHEE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "71c01e82-3562-4e91-9123-663db8c0a1b5",
+    "name": "Mogu Melon",
+    "sku": "MOGU_MELON",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d4cef552-6c44-4b42-a430-e5c404255dfb",
+    "name": "Mugdha Paan mix 200gm",
+    "sku": "Mugdha_PAAN_MIX_200GM",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9320d20c-a702-4a36-8bf2-d8da2fcc94ed",
+    "name": "Mughdha Ras Paan",
+    "sku": "MUGHDHA_RAS_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9caa0681-3cbd-4965-bcf5-4d0fd235a358",
+    "name": "Navratna Paan",
+    "sku": "NAVRATNA_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "98d7d6b3-9967-4e01-ba0b-64d070ff63b0",
+    "name": "Nimbooz",
+    "sku": "NIMBOOZ",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "35921351-8548-42d5-bcf9-6e86e9445e25",
+    "name": "Oreo Dream Shake",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "05d103d3-3ce7-49a5-8884-6646f24a069e",
+    "name": "PDL Dried Ambala",
+    "sku": "PDL_DRIED_AMBALA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "38db7378-bfc9-47ef-b941-2a67bebf430c",
+    "name": "PISTACHIO HEAVEN",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "30635fba-f9db-4011-a4d9-1d1b8a6429bf",
+    "name": "PISTACHIO HEAVEN 1 Litre",
+    "sku": "PISTACHIO_HEAVEN_1_LITRE",
+    "parent_id": "38db7378-bfc9-47ef-b941-2a67bebf430c",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "eeb44af8-833a-440c-902e-6a4447e4d70c",
+    "name": "PISTACHIO HEAVEN 1 Scoop Scoop",
+    "sku": "PISTACHIO_HEAVEN_1_SCOOP_SCOOP",
+    "parent_id": "38db7378-bfc9-47ef-b941-2a67bebf430c",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6ca7fc3d-d71b-4e9f-8891-4be5b53811d4",
+    "name": "PISTACHIO HEAVEN 1 Scoop Waffle Cone",
+    "sku": "PISTACHIO_HEAVEN_1_SCOOP_WAFFLE_CONE",
+    "parent_id": "38db7378-bfc9-47ef-b941-2a67bebf430c",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "66461589-f6f5-4ee2-ab90-38afa254f4a6",
+    "name": "PISTACHIO HEAVEN 2 Scoops Scoop",
+    "sku": "PISTACHIO_HEAVEN_2_SCOOPS_SCOOP",
+    "parent_id": "38db7378-bfc9-47ef-b941-2a67bebf430c",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "da1c8b30-6401-4a2e-8cbc-584c8c349aad",
+    "name": "PISTACHIO HEAVEN 2 Scoops Waffle Cone",
+    "sku": "PISTACHIO_HEAVEN_2_SCOOPS_WAFFLE_CONE",
+    "parent_id": "38db7378-bfc9-47ef-b941-2a67bebf430c",
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "cd07b0e2-4d8e-4d0b-945a-3477fdbb4190",
+    "name": "Paan Pasand Candy",
+    "sku": "PAAN_PASAND_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2de4c505-0764-4eac-813f-ffe75a6eae95",
+    "name": "Paan Shake",
+    "sku": "PAAN_SHAKE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "071bc223-ce23-4922-94a8-cefc7649eb2c",
+    "name": "Paan Shot",
+    "sku": "PAAN_SHOT",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0d891381-4fa7-40eb-bf9d-bce4922340ae",
+    "name": "Pachak Ambla - Yellow",
+    "sku": "PACHAK_AMBLA_YELLOW",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0e683a23-72c4-4ebd-b2f2-a190c867e493",
+    "name": "Pachak Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "642a9a60-07fa-4cb3-b3fb-c569f9a54cf2",
+    "name": "Pan Dan Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "71a386ab-c83f-4e09-9892-2a51c11998c2",
+    "name": "Pass Pass",
+    "sku": "PASS_PASS",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7f56b6fe-4e56-4f29-a88f-ce6cb3ed253a",
+    "name": "Pass Pass Sweet Magic Mix",
+    "sku": "PASS_PASS_SWEET_MAGIC_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c39a64fb-1332-4dfc-bc44-4afcbadb819c",
+    "name": "Pineapple Flavour Paan",
+    "sku": "PINEAPPLE_FLAVOUR_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "de21d0c3-33fb-402c-88e1-8fc1682694b6",
+    "name": "Pink Guava Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "7897aea3-8ad2-42a1-aee5-ec12b8457ee8",
+    "name": "Pistachio Falooda",
+    "sku": "PISTACHIO_FALOODA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7d401f08-0454-4fcd-bedf-43714419e325",
+    "name": "Pistachio Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6d7a0c90-f4bc-4d56-ba20-95a66a13d47d",
+    "name": "Polaretti ICE Lolly",
+    "sku": "POLARETTI_ICE_LOLLY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b93d2e7a-731e-4199-a114-07382e8ebcee",
+    "name": "Prime ICE Pop",
+    "sku": "PRIME_ICE_POP",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "83519050-b4fe-4b58-be68-f7a0f627a810",
+    "name": "Prime Lemon Lime",
+    "sku": "PRIME_LEMON_LIME",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "98e9ad9b-1ad9-458d-8cfb-afcb0ab25b7c",
+    "name": "Prime Raspberry",
+    "sku": "PRIME_RASPBERRY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "ee66bcc7-911a-48e0-af7b-8ce211509393",
+    "name": "Prime Tropical Punch",
+    "sku": "PRIME_TROPICAL_PUNCH",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "ee27bcf0-2aec-4fc9-88ed-369cb1af3887",
+    "name": "Pulse Mango Candy",
+    "sku": "PULSE_MANGO_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1afd5d94-5d7d-4a7d-82e5-e307fc3cf573",
+    "name": "Pulse MasaleDaar",
+    "sku": "PULSE_MASALE_CANDY_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "52531404-1f20-413d-807d-ff074f466e9c",
+    "name": "Pushpa Sandalwood ICE Paan",
+    "sku": "PUSHPA_SANDALWOOD_ICE_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2923a269-911a-4c9a-849b-bcb42c4bcef8",
+    "name": "Pushpa Sandalwood Paan",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3ca14dbe-4a18-4117-ac29-d47b51e75d31",
+    "name": "RIO Tropical",
+    "sku": "RIO_TROPICAL",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "078257af-244b-4194-9de3-08d5cec8e68c",
+    "name": "Raat Rani Paan(Night Queen Paan)",
+    "sku": "RAT_RANI_PAANNIGHT_QUEEN_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "cb015c36-751d-4e98-bc04-6948c264cc8a",
+    "name": "Rajbhog Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "2ed6fead-a011-4aa1-a456-3e3b33313020",
+    "name": "Rajni Mix",
+    "sku": "RAJNI_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8570b52f-83fe-4ed4-b6c1-e37d5f2b6e86",
+    "name": "Rajnigandha Elaichi",
+    "sku": "RAJNIGANDHA_ELAICHI",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "23c56afe-caae-49ef-b6ba-6f0ee138622d",
+    "name": "Rajwadi Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "67bcc9e2-3c35-4d33-a1e2-c96c32a6eb60",
+    "name": "Rajwadi Paan mix",
+    "sku": "RAJWADI_PAAN_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "150be237-a802-4fe2-a340-16463dd144cd",
+    "name": "Rajwadi Paan mix 200gm",
+    "sku": "RAJWADI_PAAN_MIX_200gm",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "1d4cfc17-9556-4446-9567-da165051b742",
+    "name": "Rajwadi Tea",
+    "sku": "RAJWADI_TEA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6670fd92-1915-40e5-8a34-81b2db248829",
+    "name": "Rajwadi Tea Large",
+    "sku": "RAJWADI_TEA_LARGE",
+    "parent_id": "1d4cfc17-9556-4446-9567-da165051b742",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0eaf0539-d0b8-4c96-85ac-539f9a527950",
+    "name": "Rajwadi Tea Masala",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7a27518e-971e-4e2b-9504-2b2dc21a027c",
+    "name": "Rajwadi Tea Medium",
+    "sku": "RAJWADI_TEA_MEDIUM",
+    "parent_id": "1d4cfc17-9556-4446-9567-da165051b742",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "ca0a41bf-bcc9-4378-a02b-f63ee2110836",
+    "name": "Rajwadi Tea Small",
+    "sku": "RAJWADI_TEA_SMALL",
+    "parent_id": "1d4cfc17-9556-4446-9567-da165051b742",
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "b1d34863-c9fc-4e5b-ba23-5ca00ebf7337",
+    "name": "Red Bull 355ml",
+    "sku": "RED_BULL_355ML",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "06654a53-6ec3-4856-915d-21c6d38cedfc",
+    "name": "Relentless Original",
+    "sku": "RELENTLESS_ORIGINAL",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "4e5a8ffa-71ba-4e17-9081-80bc5ebc5e29",
+    "name": "Rose Paan",
+    "sku": "ROSE_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "00c7da51-5236-492c-97be-2be33cf4a2d0",
+    "name": "Rose Royal Paan",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "806ded9d-7b89-4474-8e99-f33a019bec66",
+    "name": "Rose Valentine Vibe",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9890f57b-969b-4d7b-8019-2f72142f66f0",
+    "name": "Royal DARK Chocolate",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "55a80554-41eb-4b51-b04c-3c4b06edf58d",
+    "name": "Royal MILK Chocolate",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8514f9fb-034a-4ae6-96ba-4ba7ab23ee3c",
+    "name": "Royal ORANGE Chocolate",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "06b8478c-ed2a-4e82-87b0-9414edf8ccbc",
+    "name": "Royal Rose Falooda",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "1363609a-5068-44e2-baf5-1a7d96d0d53d",
+    "name": "Royal Rose Falooda",
+    "sku": "ROSE_LOYAL_FALOODA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "fd953cc3-2b4c-4272-a140-aa3eeeb805dc",
+    "name": "Royal Rose Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3eec39c5-6178-4cd1-a174-eabd4ebe1dd4",
+    "name": "Royal WHITE Chocolate",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "eab8f41b-f60e-44d5-b6ed-3e7fc5a73cd7",
+    "name": "Rubicon Sparkling Mango",
+    "sku": "RUBICON_SPARKLING_MANGO",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "4f70465f-898d-4219-a069-23760f5ff078",
+    "name": "Rubicon Spring",
+    "sku": "RUBICON_SPRING",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "be6ee3bc-1f54-48c8-a58a-93b0006e4dc2",
+    "name": "S.PELL Arnciata(Orange)",
+    "sku": "SPELL_ARNCIATAORANGE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8d38e727-1f5f-479a-9ae3-be2807a0e559",
+    "name": "S.PELL lemonade",
+    "sku": "SPELL_LEMONADE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "71bacc04-10c6-4412-ae31-ed61a9ab0c0b",
+    "name": "Sada Khara Paan",
+    "sku": "SADA_KHARA_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d76b9209-24d6-4ec0-8293-830d5282827a",
+    "name": "Sadabahar Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f8f74a0d-7ca9-4104-a52e-7b0082429a1e",
+    "name": "Saffron Paan mix",
+    "sku": "SAFFRON_PAAN_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "23013767-b687-4b76-8add-14ca2660d6c6",
+    "name": "Saffron Paan mix 200gm",
+    "sku": "SAFFRON_PAAN_MIX_200GM",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e20b6679-14ad-42bf-82f1-b1dacc50f51a",
+    "name": "Saffron Supari Mix",
+    "sku": "SAFFRON_SUPARI_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "512e4f33-080b-4f7b-b171-cfc5599df52f",
+    "name": "Saffron Sweet Paan",
+    "sku": "SAFFRON_SWEET_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "581620d7-f853-4055-b98c-0980c90ef8eb",
+    "name": "Santra Candy",
+    "sku": "SANTRA_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "e3392331-8be7-4324-861b-62d963cc4ac7",
+    "name": "Santra Nimbu Candy",
+    "sku": "SANTRA_NIMBU_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "cb06073f-38d5-4ed7-8be8-2298a32afc72",
+    "name": "Shahi Paan",
+    "sku": "SHAHI_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "4245b5bd-c577-4fd4-9542-0cd37caa560a",
+    "name": "Shingoda Paan",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "127f4247-3d68-453e-b634-d191c7604161",
+    "name": "Signature Love Paan",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7795db2a-eef4-4f51-bbed-7e211c53d651",
+    "name": "Sikanji Goli Soda",
+    "sku": "SIKANJI_GOLI_SODA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7cb4fc88-6016-46b1-bff2-e77223965d39",
+    "name": "Silver Paan Beeda",
+    "sku": "SILVER_PAAN_BEEDA",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "d915a6d0-01f7-4d19-b76b-04fd87675e19",
+    "name": "Sitafal & Strawberry Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8fadbbc7-8230-4bb6-bbf9-6017b58446ea",
+    "name": "Sosyo Limbu Masala",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "02626f20-8324-41c1-8c36-81dabdee806a",
+    "name": "Special Banaras Paan",
+    "sku": "SPECIAL_BANARAS_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c1006bd7-bc89-4fb4-b257-c993473046bd",
+    "name": "Special Banaras Rajwari Paan",
+    "sku": "SPECIAL_BANARAS_RAJWARI_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "df78145e-09ec-4359-8575-27cae68e4060",
+    "name": "Special Mystic Banaras",
+    "sku": "SPECIAL_MYSTIC_BANARAS_PAAN",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3898c3cc-d9b8-4c61-96aa-e7f5443376aa",
+    "name": "Special Rose Mocktail",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": true,
+    "print_on_other": false
+  },
+  {
+    "id": "f1dcb94b-f824-46d8-a52c-030baec1d6aa",
+    "name": "Special Supari Mix",
+    "sku": "SPECIAL_SUPARI_MIX",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "554cbea3-8e14-4a38-bc24-2226f899578a",
+    "name": "Spicy Mango",
+    "sku": "SPICY_MANGO",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6a4c1efb-512d-46b2-980d-e3ad5807493c",
+    "name": "Strawberry Bliss Shake",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "565c7f72-8378-453d-a6b3-5a2e634ca99d",
+    "name": "Strawberry Chocolate Special",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": true,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "98350769-2bc4-4690-a00a-411987a328ca",
+    "name": "Strawberry Spark Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "f233abdf-447d-4c57-b8df-c37befd93115",
+    "name": "Sweet Imli(Tamrind) Candy",
+    "sku": "SWEET_IMLI_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "6f137a45-37d1-49da-986f-71a97a47b7fa",
+    "name": "Sweet Til Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "986618e2-3ccb-4383-9def-0c7f10ae6d94",
+    "name": "Tango Orange",
+    "sku": "TANGO_ORANGE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "08a94715-8a68-4b99-87d0-b7859d27496a",
+    "name": "Temptation Mukhwas",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "0ebe6b6c-b3b1-420a-afcb-7b64cc7582a2",
+    "name": "Thums Up",
+    "sku": "THUMS_UP",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "adb40409-3666-4aca-bdd3-86c7fce86182",
+    "name": "Toxic Waste Candy",
+    "sku": "TOXIC_WASTE_CANDY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "76a2ccea-c202-4dc4-85c1-aa8aac481e13",
+    "name": "Toxic Waste Fusion",
+    "sku": "TOXIC_WASTE_FUSION",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "81a64bda-7651-4f15-a1ba-8cbfc86f7ee4",
+    "name": "Toxic Waste Red Drum",
+    "sku": "TOXIC_WASTE_RED_DRUM",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "ae507a4c-1de5-4ecf-a729-d1d5d6e8f614",
+    "name": "Tulsi Mix",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "3e91101e-a827-438f-963a-914a63c098ff",
+    "name": "Tulsi Royal Khajoor",
+    "sku": "TULSI_ROYAL_KHAJOOR",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "7e619a88-0e86-4f47-9460-070f9bfbad34",
+    "name": "Vape",
+    "sku": "VAPE_1",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "52c323c2-dd12-4e7e-b979-f3e870b114b2",
+    "name": "Vape Pod",
+    "sku": "VAPE_POD",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "52dd1727-5310-460f-8588-7aaed0c031f8",
+    "name": "Vape Pod Replacement",
+    "sku": "VAPE_POD_REPLACEMENT",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "c4e16ee0-1722-42da-9a49-e999239ad381",
+    "name": "Velvety Mango Shake",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "ad245c3f-c994-4722-a50b-d7759ceb7fca",
+    "name": "Voucher",
+    "sku": "",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "9d887a67-d8c8-4feb-b522-94ff8bfe2ee0",
+    "name": "Wacky Monkey",
+    "sku": "WACKY_MONKEY",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  },
+  {
+    "id": "8c12a5ee-0241-40d9-b73c-f9dd34d40522",
+    "name": "Yazoo Chocolate",
+    "sku": "YAZOO_CHOCOLATE",
+    "parent_id": null,
+    "print_on_receipt": true,
+    "print_on_kitchen": false,
+    "print_on_drink": false,
+    "print_on_other": false
+  }
+]

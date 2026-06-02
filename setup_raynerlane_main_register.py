@@ -21,7 +21,8 @@ RAYNERLANE_COMPANY = "Banaras - RaynerLane"
 POS_CONFIG_NAME = "Main Register"  # matches Goodtill register_name
 GOODTILL_CATEGORIES = [
     "Paan",
-    "Bubble Tea",
+    "Bubble Fruit Tea",
+    "Bubble Milk Tea",
     "Freeze Drinks",
     "Paan Masala",
     "Paan Mukhwas",
@@ -34,6 +35,7 @@ GOODTILL_CATEGORIES = [
     "Falooda",
     "Drinks",
     "ICE Gola",
+    "ICE Creams",
     "Hot Drinks",
     "TBC",
     "Chakhna",
@@ -153,7 +155,9 @@ def main() -> int:
     vals = {
         "name": POS_CONFIG_NAME,
         "currency_id": gbp_id,
+        "use_pricelist": True,
         "pricelist_id": pricelist_id,
+        "available_pricelist_ids": [(6, 0, [pricelist_id])],
         "limit_categories": True,
         "iface_available_categ_ids": [(6, 0, categ_ids)],
         "iface_group_by_categ": True,

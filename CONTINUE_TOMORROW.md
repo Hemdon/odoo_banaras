@@ -2,115 +2,81 @@
 
 **Last updated:** 2026-05-20  
 **GitHub:** https://github.com/Hemdon/odoo_banaras  
-**Server:** `46.202.140.75` (alias: `odoo` in `~/.aliases`)
+**Server:** `187.77.99.211` — SSH: `ssh -i ~/.ssh/id_odoo root@187.77.99.211`  
+**Odoo URL:** https://srv1649615.hstgr.cloud  
+**Odoo DB:** Main_Banaras  
+**Goodtill subdomain:** banaraspaan
 
 ---
 
-## Quick resume prompt (paste into Cursor tomorrow)
+## Quick resume prompt
 
 ```
-Continue Banaras Paan Odoo project from CONTINUE_TOMORROW.md in odoo_banaras.
-Server: ssh via alias `odoo` (root@46.202.140.75). Odoo DB: Main_Banaras.
-POS: Main Register config_id=9, company Banaras - RaynerLane.
-Goodtill subdomain: banaraspaan. Check CONTINUE_TOMORROW.md for credentials paths and open items.
+Continue Banaras Paan Odoo from CONTINUE_TOMORROW.md in odoo_banaras.
+Server: ssh -i ~/.ssh/id_odoo root@187.77.99.211
+DB: Main_Banaras. POS: Main Register id=9 (Rayners), Hatch End Register id=13.
+Goodtill loyalty/promos: goodtill_loyalty.json, setup_goodtill_loyalty.py on server /opt/odoo/custom/
 ```
 
 ---
 
 ## What’s done
 
-### Server & database
-- PostgreSQL DB: **Main_Banaras** on `46.202.140.75`
-- Odoo **19.0** running on port **8069**
-- SSH: `alias odoo` → `sshpass ssh root@46.202.140.75` (password in `~/.aliases`)
+### Companies
+| Company | ID |
+|---------|-----|
+| Banaras Paan (parent) | 4 |
+| Banaras - RaynerLane | 5 |
+| Banaras - Hatch End | 6 |
 
-### Companies (Odoo)
-| Company | ID | Currency | Chart |
-|---------|-----|----------|-------|
-| Banaras - RaynerLane | 5 | GBP £ | UK (`uk`) |
-| Banaras Paan (parent) | 4 | GBP | UK |
-| Banaras - Hatch End | 6 | GBP | UK |
+### POS
+| Register | Config ID | Company | Pricelist |
+|----------|-----------|---------|-----------|
+| Main Register | 9 | RaynerLane (5) | Main (1) |
+| Hatch End Register | 13 | Hatch End (6) | Hatch End (5) |
 
-### POS — Rayners Lane
-- **Name:** Main Register (matches Goodtill Main Outlet / Main Register)
-- **Config ID:** `9`
-- **URL:** http://46.202.140.75:8069/pos/ui/9
-- **Company:** Banaras - RaynerLane
-- **Categories:** 18 Goodtill categories (Paan, Bubble Tea, etc.)
-- **Products:** 228 synced from Goodtill Main Outlet; **121 with images**
-- **Settings:** `show_product_images=True`, `show_category_images=True`
+- Hatch End `picking_type_id` fixed → company 6 PoS Orders (was demo San Francisco — caused Access Error for Hamish Admin).
+- Custom module: `banaras_pos_topping/` (bubble tea toppings on POS).
 
-### Goodtill → Odoo sync (local scripts)
+### Goodtill sync scripts (local + `/opt/odoo/custom/` on server)
 | Script | Purpose |
 |--------|---------|
-| `goodtill_to_odoo.py --sync` | Products + categories |
-| `goodtill_to_odoo.py --sync-images` | Product images from Goodtill S3/API |
-| `fix_pos_images.py` | Re-sync images + category tile icons + POS settings |
-| `setup_raynerlane_main_register.py` | POS config for Main Register |
+| `goodtill_to_odoo.py` | Products, categories, taxes, branch prices |
+| `fetch_goodtill_promotions.py` | Export promos to `goodtill_promotions.json` |
+| `setup_goodtill_promotions.py` | Sync buy-X-get-Y / % promos → `loyalty.program` |
+| `goodtill_loyalty.json` | Loyalty categories + reward tiers (source of truth) |
+| `setup_goodtill_loyalty.py` | Tags `GT-Loyalty:*` + Banaras Paan Loyalty programs |
+| `setup_hatch_end_pos.py` | Hatch End POS + pricelist |
+| `fix_loyalty_pos_trigger.py` | `trigger=auto` for POS promos |
+| `fix_loyalty_product_tags.py` | Multi-product rewards via `reward_product_tag_id` |
 
-### Git
-- Repo: **https://github.com/Hemdon/odoo_banaras**
-- Secrets in `.env` (gitignored) — copy from `.env.example`
+### Loyalty (Goodtill-style)
+- **Earn:** £1 = 5 points (`points_per_currency: 5`), nominative (customer required).
+- **Programs:** Banaras Paan Loyalty (Main), Banaras Paan Loyalty (Hatch End) — different point costs per tier.
+- **Categories (product tags, not Odoo categories):**
+  - `standard_paan`, `delux_paan` — 4 products each (from Goodtill names)
+  - `bubble_tea_500ml_hatch` — 10 products (Hatch reward list)
+  - `bubble_tea_500ml` — broad match on Main (~33 products); **user will send fixed list later**
+- **POS:** Customer → sell → ⋯ Reward → pick tier → choose product. Close/reopen session after config changes.
 
----
-
-## Credentials (local only — NOT in git)
-
-Store in `odoo_banaras/.env`:
-
-```env
-GOODTILL_SUBDOMAIN=banaraspaan
-GOODTILL_USERNAME=Banaras@Admin
-GOODTILL_PASSWORD=<see .env on machine>
-
-ODOO_URL=http://46.202.140.75:8069
-ODOO_DB=Main_Banaras
-ODOO_USERNAME=banaraspaan.uk@gmail.com
-ODOO_PASSWORD=1xOeJ3m53uWZA1!
-
-GOODTILL_OUTLET_ID=02f13246-56ff-404e-84b8-ad3200601295
-```
-
-Admin default company set to **Banaras - RaynerLane** (id=5).
+### Promotions
+- Use Goodtill **external** API promos; mapped to Odoo `loyalty.program` with Goodtill display names.
+- Branch-specific: Rayners vs Hatch End where duplicated in Goodtill.
 
 ---
 
-## Goodtill mapping
+## Credentials
 
-| Goodtill | Odoo |
-|----------|------|
-| Main Outlet (`BNRSUK`) | Rayners Lane branch |
-| Main Register | POS config "Main Register" |
-| 388 products / 228 sellable | Synced to Odoo |
-| 121 with images | `image_1920` on product.template |
-
-**Note:** No separate "Rayners Lane" outlet in Goodtill — uses **Main Outlet** catalog.
-
-Other outlets: Hatch End, Netherlands, Bristol.
+Local only — copy `.env.example` → `.env` (gitignored). Never commit passwords.
 
 ---
 
-## How to open POS tomorrow
+## Open items
 
-1. http://46.202.140.75:8069/web/login
-2. Login: `banaraspaan.uk@gmail.com` / password from `.env`
-3. Database: **Main_Banaras**
-4. Company: **Banaras - RaynerLane**
-5. http://46.202.140.75:8069/pos/ui/9 **after login**
-6. Close old session first if "session already open" → backend: Point of Sale → Close session
-
-**If stuck on login:** Session expired — incognito window or clear cookies for `46.202.140.75`.
-
----
-
-## Open items / next steps
-
-- [ ] **POS images:** ~107 products still have no Goodtill image — add in Goodtill, then `python3 fix_pos_images.py`
-- [ ] **HTTPS for Odoo:** `srv1649615.hstgr.cloud` nginx → port 3000 (KDS only); Odoo is HTTP :8069 only
-- [ ] **Hatch End branch:** Separate POS if needed (company id=6)
-- [ ] **UK VAT** on products — verify tax rules after chart install
-- [ ] **Product variants/modifiers** from Goodtill — not synced yet (top-level only)
-- [ ] Reset Odoo password if user changed it
+- [ ] **Main Register 500ml bubble tea** — user to send explicit Goodtill list → new category in `goodtill_loyalty.json`
+- [ ] **Import Goodtill customer point balances** → Odoo `loyalty.card`
+- [ ] Product variants/modifiers full sync (top-level + bubble tea combos partial)
+- [ ] ~107 products still without Goodtill images → `fix_pos_images.py` after Goodtill upload
 
 ---
 
@@ -119,37 +85,22 @@ Other outlets: Hatch End, Netherlands, Bristol.
 ```bash
 cd /Users/hemesh/Downloads/BugUp/Claude_Tester/odoo_banaras
 
-# Sync products
-python3 goodtill_to_odoo.py --sync
+# Deploy custom scripts to server
+scp -i ~/.ssh/id_odoo goodtill_loyalty.json setup_goodtill_loyalty.py root@187.77.99.211:/opt/odoo/custom/
 
-# Sync images
-python3 fix_pos_images.py
+# Apply loyalty on server
+ssh -i ~/.ssh/id_odoo root@187.77.99.211 \
+  'sudo -u odoo odoo shell -c /etc/odoo/odoo.conf -d Main_Banaras --no-http < /opt/odoo/custom/setup_goodtill_loyalty.py'
 
-# SSH to server
-odoo   # from terminal with ~/.aliases loaded
-
-# On server — Odoo shell
-sudo -u odoo odoo shell -d Main_Banaras -c /etc/odoo/odoo.conf --no-http
-
-# Close stuck POS session (server)
-# pos.session search opened → action_pos_session_closing_control
+# POS URLs (after login)
+# Main:    https://srv1649615.hstgr.cloud/pos/ui/9
+# Hatch:   https://srv1649615.hstgr.cloud/pos/ui/13
 ```
 
 ---
 
-## Related projects (same machine)
+## Issues resolved (recent)
 
-- `Claude_Tester/POS_to_Brevo 2/` — Goodtill → Brevo customer sync
-- `Claude_Tester/Banaras_Sales_CallAssitant/` — KDS + Goodtill webhooks (nginx :443 → :3000)
-
----
-
-## Issues resolved this session
-
-1. Found Main_Banaras DB, reset admin password
-2. Set up Rayners Lane POS + UK chart of accounts
-3. Synced 228 Goodtill products + 18 categories
-4. GBP currency + Main Register naming
-5. Synced 121 product images + 11 category images
-6. POS login = must authenticate first (session expired redirects to login)
-7. Closed stuck POS session blocking register open
+1. Promotion Reward button grey — `trigger=auto`, product tags for multi-reward
+2. Loyalty categories populated from Goodtill product names
+3. Hatch End Access Error on `stock.picking.type` — wrong company picking type on POS config 13
