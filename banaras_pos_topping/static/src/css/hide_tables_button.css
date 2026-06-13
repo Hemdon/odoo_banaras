@@ -1,0 +1,7 @@
+/* Hide restaurant table navigation while keeping restaurant/self-order features enabled. */
+button.table-button,
+.table-button,
+.pos .table-button {
+    display: none !important;
+    visibility: hidden !important;
+}

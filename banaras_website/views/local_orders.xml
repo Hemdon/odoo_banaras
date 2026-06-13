@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Local Orders  (/local-orders) -->
+    <template id="local_orders" name="Local Orders">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <section class="bp-hero" style="padding:5rem 1rem;">
+                    <div class="container">
+                        <div class="bp-leaf mb-2"><i class="fa fa-car"/></div>
+                        <h1>Local Orders</h1>
+                        <p>Collect from our Harrow branches, or get it delivered to your door.</p>
+                    </div>
+                </section>
+
+                <!-- Collection -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Click &amp; collect</p>
+                            <h2>Collection</h2>
+                        </div>
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="bp-loc">
+                                    <div class="bp-loc__head"><h3>Rayners Lane</h3></div>
+                                    <div class="bp-loc__body">
+                                        <p class="mb-2"><i class="fa fa-map-marker me-2"/>26a Village Way East, Pinner, Harrow, HA2 7LU</p>
+                                        <p class="mb-3"><i class="fa fa-phone me-2"/><a href="tel:+447479200200">07479 200200</a></p>
+                                        <a href="/pos-self/9?access_token=b9de18afc8754937" class="btn btn-bp-green">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="bp-loc">
+                                    <div class="bp-loc__head"><h3>Hatch End</h3></div>
+                                    <div class="bp-loc__body">
+                                        <p class="mb-2"><i class="fa fa-map-marker me-2"/>Pickwick Walk, Uxbridge Road, Hatch End, Harrow, HA5 4HS</p>
+                                        <p class="mb-3"><i class="fa fa-phone me-2"/><a href="tel:+447479200200">07479 200200</a></p>
+                                        <a href="/pos-self/13?access_token=24cf2af022e74cc5" class="btn btn-bp-green">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Home delivery platforms -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Home delivery</p>
+                            <h2>Order on your favourite app</h2>
+                            <p class="bp-lead">Find Banaras Paan on the major delivery platforms.</p>
+                        </div>
+                        <div class="row g-3 justify-content-center">
+                            <div class="col-sm-4 col-lg-3">
+                                <a href="https://deliveroo.co.uk/menu/london/rayners-lane/banaras-paan-pinner" target="_blank" rel="noopener" class="btn btn-bp-dark w-100 py-3"><i class="fa fa-motorcycle me-2"/>Deliveroo</a>
+                            </div>
+                            <div class="col-sm-4 col-lg-3">
+                                <a href="https://www.ubereats.com/gb/store/banaras-paan/40peV0s-WeiL3x3epylfDA" target="_blank" rel="noopener" class="btn btn-bp-dark w-100 py-3"><i class="fa fa-cutlery me-2"/>Uber Eats</a>
+                            </div>
+                            <div class="col-sm-4 col-lg-3">
+                                <a href="https://www.just-eat.co.uk/restaurants-banaraspaannorth-harrow/menu" target="_blank" rel="noopener" class="btn btn-bp-dark w-100 py-3"><i class="fa fa-shopping-basket me-2"/>Just Eat</a>
+                            </div>
+                        </div>
+                        <p class="text-center text-muted mt-3" style="font-size:.85rem">Delivery availability depends on your location.</p>
+                    </div>
+                </section>
+
+                <!-- Events & party -->
+                <section class="bp-section">
+                    <div class="container text-center">
+                        <p class="bp-eyebrow">Planning something bigger?</p>
+                        <h2 class="mb-3">Events &amp; party orders</h2>
+                        <p class="bp-lead mb-4 mx-auto" style="max-width:640px">
+                            Paan counters, bulk orders and bespoke treats for your celebration.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="https://wa.me/447479200200" target="_blank" rel="noopener" class="btn btn-bp-whatsapp btn-lg btn-lg-pill"><i class="fa fa-whatsapp me-2"/>WhatsApp us</a>
+                            <a href="/event-and-party-orders" class="btn btn-bp-green btn-lg btn-lg-pill">Event &amp; Party Orders</a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+    <record id="local_orders_page" model="website.page">
+        <field name="name">Local Orders</field>
+        <field name="url">/local-orders</field>
+        <field name="view_id" ref="local_orders"/>
+        <field name="website_published" eval="True"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_meta_title">Local Orders — Collection &amp; Delivery in Harrow | Banaras Paan</field>
+        <field name="website_meta_description">Collect fresh paan, bubble tea and desserts from our Rayners Lane and Hatch End branches in Harrow, or order home delivery via Deliveroo, Uber Eats and Just Eat.</field>
+        <field name="website_meta_keywords">paan Harrow, paan collection, paan delivery Harrow, Rayners Lane, Hatch End, Deliveroo Uber Eats Just Eat</field>
+    </record>
+
+    <record id="menu_local_orders" model="website.menu">
+        <field name="name">Local Orders</field>
+        <field name="url">/local-orders</field>
+        <field name="page_id" ref="local_orders_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" eval="10"/>
+    </record>
+
+</odoo>

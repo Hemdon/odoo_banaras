@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="homepage" name="Banaras Paan Homepage">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Authentic Paan Delivered Across the UK</t>
+            <t t-set="meta_description">
+                Shop freshly prepared authentic Banaras paan, including premium,
+                royal, sweet and ice paan. Order securely online from Banaras Paan.
+            </t>
+
+            <main id="wrap" class="banaras-home">
+                <section class="banaras-hero">
+                    <div class="container">
+                        <div class="row align-items-center gy-5">
+                            <div class="col-lg-6">
+                                <p class="banaras-eyebrow">Handcrafted in Harrow</p>
+                                <h1>Authentic Paan.<br/>A Taste of Banaras.</h1>
+                                <p class="banaras-hero__lead">
+                                    Discover handcrafted paan made with carefully
+                                    selected leaves, fragrant fillings and recipes
+                                    inspired by the streets of Banaras.
+                                </p>
+                                <div class="banaras-hero__actions">
+                                    <a
+                                        t-att-href="'/shop/category/%s' % root_category.id if root_category else '/shop'"
+                                        class="btn btn-primary btn-lg"
+                                    >
+                                        Shop Paan
+                                    </a>
+                                    <a href="#paan-collections" class="btn btn-outline-primary btn-lg">
+                                        Explore Collections
+                                    </a>
+                                </div>
+                                <ul class="banaras-trust-list" aria-label="Shopping benefits">
+                                    <li>Secure checkout</li>
+                                    <li>Freshly prepared</li>
+                                    <li>UK delivery options</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banaras-hero__visual">
+                                    <div class="banaras-hero__halo"></div>
+                                    <img
+                                        src="/theme_banaras_paan/static/src/img/banaras-paan-logo.png"
+                                        alt="Banaras Paan"
+                                        class="banaras-hero__logo"
+                                        width="720"
+                                        height="588"
+                                        fetchpriority="high"
+                                    />
+                                    <span class="banaras-leaf banaras-leaf--one"></span>
+                                    <span class="banaras-leaf banaras-leaf--two"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    id="paan-collections"
+                    class="banaras-section banaras-collections"
+                    aria-labelledby="collections-title"
+                >
+                    <div class="container">
+                        <div class="banaras-section-heading">
+                            <div>
+                                <p class="banaras-eyebrow">Find your favourite</p>
+                                <h2 id="collections-title">Our Paan Collections</h2>
+                            </div>
+                            <a
+                                t-att-href="'/shop/category/%s' % root_category.id if root_category else '/shop'"
+                                class="banaras-text-link"
+                            >
+                                View all Paan
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+
+                        <div class="row g-4">
+                            <t t-foreach="paan_categories" t-as="category">
+                                <div class="col-6 col-lg">
+                                    <a
+                                        t-att-href="'/shop/category/%s' % category.id"
+                                        class="banaras-category-card"
+                                    >
+                                        <span class="banaras-category-card__leaf" aria-hidden="true"></span>
+                                        <span class="banaras-category-card__name">
+                                            <t t-esc="category.name"/>
+                                        </span>
+                                        <span class="banaras-category-card__action">
+                                            Shop collection
+                                        </span>
+                                    </a>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="banaras-section banaras-featured" aria-labelledby="featured-title">
+                    <div class="container">
+                        <div class="banaras-section-heading">
+                            <div>
+                                <p class="banaras-eyebrow">Customer favourites</p>
+                                <h2 id="featured-title">Popular Paan</h2>
+                            </div>
+                        </div>
+
+                        <div class="row g-4">
+                            <t t-if="featured_products">
+                                <t t-foreach="featured_products" t-as="product">
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <article class="banaras-product-card">
+                                            <a
+                                                t-att-href="product.website_url"
+                                                class="banaras-product-card__image"
+                                                t-att-aria-label="'View %s' % product.name"
+                                            >
+                                                <img
+                                                    t-att-src="'/web/image/product.template/%s/image_512' % product.id"
+                                                    t-att-alt="product.name"
+                                                    loading="lazy"
+                                                    width="512"
+                                                    height="512"
+                                                />
+                                            </a>
+                                            <div class="banaras-product-card__body">
+                                                <p class="banaras-product-card__label">Banaras Paan</p>
+                                                <h3>
+                                                    <a t-att-href="product.website_url">
+                                                        <t t-esc="product.name"/>
+                                                    </a>
+                                                </h3>
+                                                <div class="banaras-product-card__footer">
+                                                    <span
+                                                        class="banaras-product-card__price"
+                                                        t-field="product.list_price"
+                                                        t-options='{"widget": "monetary", "display_currency": product.currency_id}'
+                                                    />
+                                                    <a
+                                                        t-att-href="product.website_url"
+                                                        class="btn btn-sm btn-primary"
+                                                    >
+                                                        Choose
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </t>
+                            </t>
+                            <t t-else="">
+                                <div class="col-12">
+                                    <div class="banaras-empty-state">
+                                        Paan products are being prepared for the online shop.
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="banaras-story">
+                    <div class="container">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-5">
+                                <div class="banaras-story__mark" aria-hidden="true">
+                                    <span>BP</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <p class="banaras-eyebrow banaras-eyebrow--light">Our craft</p>
+                                <h2>Tradition folded into every leaf</h2>
+                                <p>
+                                    Paan is more than a flavour. It is a welcoming
+                                    ritual shared across generations. Banaras Paan
+                                    pairs traditional ingredients with fresh,
+                                    imaginative combinations for every occasion.
+                                </p>
+                                <a href="/contactus" class="btn btn-light">
+                                    Visit or contact us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="banaras-section banaras-seo-copy">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-9">
+                                <h2>Authentic Paan Shop in Harrow</h2>
+                                <p>
+                                    Banaras Paan serves handcrafted sweet paan,
+                                    premium paan, royal paan and refreshing ice paan
+                                    from our Harrow locations. Browse the collection,
+                                    select your favourites and order through our
+                                    secure online shop.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Banaras Paan",
+                    "url": "https://www.banaraspaan.com",
+                    "logo": "https://www.banaraspaan.com/theme_banaras_paan/static/src/img/banaras-paan-logo.png",
+                    "sameAs": [
+                        "https://www.facebook.com/BanarasPaanUK",
+                        "https://www.instagram.com/banaraspaan"
+                    ]
+                }
+            </script>
+        </t>
+    </template>
+</odoo>
+

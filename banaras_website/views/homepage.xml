@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ================================================================
+         Replace the default Odoo home page body with the Banaras Paan
+         home page. Content sits inside an `oe_structure` wrapper so it
+         stays fully editable in the Website Builder after install.
+         ================================================================ -->
+    <template id="banaras_homepage" inherit_id="website.homepage"
+              name="Banaras Paan - Home">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <!-- ============ HERO ============ -->
+                <section class="bp-hero">
+                    <div class="container">
+                        <div class="bp-leaf mb-2"><i class="fa fa-leaf"/></div>
+                        <h1>Experience Authentic Paan at Banaras Paan</h1>
+                        <p>
+                            We bring you a vibrant selection of sweet paan, refreshing bubble tea,
+                            mouth-watering desserts and more. Dive into a world of taste that
+                            celebrates tradition and quality &#8212; where every bite tells a story.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="/shop" class="btn btn-bp-gold btn-lg btn-lg-pill">
+                                <i class="fa fa-shopping-bag me-2"/>UK Wide Orders
+                            </a>
+                            <a href="/contactus" class="btn btn-bp-light btn-lg btn-lg-pill">
+                                <i class="fa fa-map-marker me-2"/>Local Orders
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ INTRO: PREMIER PAAN SHOP ============ -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-6">
+                                <p class="bp-eyebrow">Your Premier Paan Shop in the UK</p>
+                                <h2 class="mb-3">Banaras &#8212; tradition, handcrafted in Harrow</h2>
+                                <p class="bp-lead">
+                                    We specialise in traditional paan made with premium betel leaves
+                                    and a carefully curated selection of fillings, blending heritage
+                                    recipes with a contemporary twist.
+                                </p>
+                                <div class="d-flex flex-wrap gap-2 mt-4">
+                                    <span class="bp-chip"><i class="fa fa-leaf"/>Sweet Paan (Meetha Paan)</span>
+                                    <span class="bp-chip"><i class="fa fa-star"/>Royal Ice Paan</span>
+                                    <span class="bp-chip"><i class="fa fa-magic"/>Unique Paan Flavours</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="bp-card text-start p-4">
+                                    <h3 class="mb-3">Why Banaras Paan?</h3>
+                                    <p class="mb-3"><i class="fa fa-check-circle me-2" style="color:var(--bp-green)"/>
+                                        Classic <strong>Meetha Paan</strong> with sweet preserves, gulkand
+                                        (rose-petal jam) and aromatic spices.</p>
+                                    <p class="mb-3"><i class="fa fa-check-circle me-2" style="color:var(--bp-green)"/>
+                                        An extensive selection of unique, hand-rolled paan flavours.</p>
+                                    <p class="mb-0"><i class="fa fa-check-circle me-2" style="color:var(--bp-green)"/>
+                                        The refreshing, innovative <strong>Royal Ice Paan</strong>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ MORE THAN JUST A PAAN SHOP ============ -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">More than just a paan shop</p>
+                            <h2>Treats for every craving</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--sky"><i class="fa fa-glass"/></div>
+                                <h3>Thick Milkshakes</h3>
+                                <p class="text-muted">Rich and creamy milkshakes, available in classic and exotic flavours.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon"><i class="fa fa-coffee"/></div>
+                                <h3>Bubble Tea</h3>
+                                <p class="text-muted">A variety of exciting tastes with chewy tapioca pearls.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--gold"><i class="fa fa-birthday-cake"/></div>
+                                <h3>Delectable Desserts</h3>
+                                <p class="text-muted">Traditional sweets, ice creams and more to finish on a high.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ PRODUCT CATEGORY CARDS ============ -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Explore the menu</p>
+                            <h2>Find your favourite</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-6 col-lg-3">
+                                <div class="bp-card">
+                                    <div class="bp-icon bp-icon--green"><i class="fa fa-leaf"/></div>
+                                    <h3>Sweet Paan</h3>
+                                    <p>Crafted with the finest ingredients to deliver an explosion of flavours in every bite.</p>
+                                    <a href="/shop" class="btn btn-sm btn-bp-green">Order now</a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <div class="bp-card">
+                                    <div class="bp-icon bp-icon--sky"><i class="fa fa-glass"/></div>
+                                    <h3>Thick Milkshake</h3>
+                                    <p>Thick and creamy milkshakes that provide a refreshing treat for your taste buds.</p>
+                                    <a href="/shop" class="btn btn-sm btn-bp-green">Order now</a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <div class="bp-card">
+                                    <div class="bp-icon"><i class="fa fa-coffee"/></div>
+                                    <h3>Bubble Tea</h3>
+                                    <p>Vibrant bubble tea with exciting flavours and chewy tapioca pearls for a playful drink.</p>
+                                    <a href="/shop" class="btn btn-sm btn-bp-green">Order now</a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <div class="bp-card">
+                                    <div class="bp-icon bp-icon--gold"><i class="fa fa-birthday-cake"/></div>
+                                    <h3>Delectable Desserts</h3>
+                                    <p>Ice creams, Royal Ice Paan and more &#8212; a perfect ending to your meal.</p>
+                                    <a href="/shop" class="btn btn-sm btn-bp-green">Order now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ STATS ============ -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="bp-counter"><div class="bp-num">23k+</div><div class="bp-label">Satisfied Customers</div></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bp-counter"><div class="bp-num">92k+</div><div class="bp-label">Delightful Treats Served</div></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bp-counter"><div class="bp-num">289</div><div class="bp-label">Events Served</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ LOCATIONS ============ -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Visit us</p>
+                            <h2>Visit Banaras Paan in Harrow</h2>
+                            <p class="bp-lead mx-auto" style="max-width:720px">
+                                Come to our Rayners Lane &amp; Hatch End branches for the finest Indian
+                                street food and the authentic taste of traditional paan.
+                            </p>
+                        </div>
+                        <div class="row g-4">
+                            <!-- Rayners Lane -->
+                            <div class="col-lg-6">
+                                <div class="bp-loc">
+                                    <div class="bp-loc__head"><h3>Rayners Lane</h3></div>
+                                    <div class="bp-loc__body">
+                                        <p class="mb-2"><i class="fa fa-map-marker me-2"/>26a Village Way East, Pinner, Harrow, HA2 7LU</p>
+                                        <p class="mb-2"><i class="fa fa-phone me-2"/><a href="tel:+447479200200">07479 200200</a></p>
+                                        <p class="mb-0"><i class="fa fa-envelope me-2"/><a href="mailto:info@banaraspaan.com">info@banaraspaan.com</a></p>
+                                        <ul class="bp-loc__hours">
+                                            <li><span>Mon &#8211; Fri</span><span>12:00 &#8211; 00:00</span></li>
+                                            <li><span>Sat &#8211; Sun</span><span>11:00 &#8211; 00:00</span></li>
+                                        </ul>
+                                        <a class="btn btn-sm btn-bp-green mt-3"
+                                           href="https://www.google.com/maps/search/?api=1&amp;query=Banaras+Paan+26a+Village+Way+East+Pinner+Harrow+HA2+7LU"
+                                           target="_blank" rel="noopener">
+                                            <i class="fa fa-location-arrow me-1"/>Get directions
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Hatch End -->
+                            <div class="col-lg-6">
+                                <div class="bp-loc">
+                                    <div class="bp-loc__head"><h3>Hatch End</h3></div>
+                                    <div class="bp-loc__body">
+                                        <p class="mb-2"><i class="fa fa-map-marker me-2"/>Pickwick Walk, Uxbridge Road, Hatch End, Harrow, HA5 4HS</p>
+                                        <p class="mb-2"><i class="fa fa-phone me-2"/><a href="tel:+447479200200">07479 200200</a></p>
+                                        <p class="mb-0"><i class="fa fa-envelope me-2"/><a href="mailto:info@banaraspaan.com">info@banaraspaan.com</a></p>
+                                        <ul class="bp-loc__hours">
+                                            <li><span>Mon</span><span>12:00 &#8211; 23:00</span></li>
+                                            <li><span>Tue &#8211; Wed</span><span>18:00 &#8211; 23:00</span></li>
+                                            <li><span>Thu</span><span>12:00 &#8211; 23:00</span></li>
+                                            <li><span>Fri</span><span>12:00 &#8211; 00:30</span></li>
+                                            <li><span>Sat</span><span>11:00 &#8211; 00:30</span></li>
+                                            <li><span>Sun</span><span>11:00 &#8211; 23:00</span></li>
+                                        </ul>
+                                        <a class="btn btn-sm btn-bp-green mt-3"
+                                           href="https://www.google.com/maps/search/?api=1&amp;query=Banaras+Paan+Pickwick+Walk+Uxbridge+Road+Hatch+End+Harrow+HA5+4HS"
+                                           target="_blank" rel="noopener">
+                                            <i class="fa fa-location-arrow me-1"/>Get directions
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ CTA BAND ============ -->
+                <section class="bp-section bp-cta">
+                    <div class="container">
+                        <h2 class="mb-3">Fresh paan, dispatched nationwide</h2>
+                        <p class="bp-lead text-white mb-4" style="opacity:.95">
+                            Pick your flavour, add to your bucket, confirm &#8212; we handle the rest.
+                        </p>
+                        <a href="/shop" class="btn btn-bp-gold btn-lg btn-lg-pill">
+                            <i class="fa fa-shopping-bag me-2"/>Order Sweet Paan Now
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ============ SEO: JSON-LD structured data ============ -->
+                <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Restaurant",
+      "name": "Banaras Paan - Rayners Lane",
+      "servesCuisine": ["Indian", "Paan", "Bubble Tea", "Desserts"],
+      "image": "https://www.banaraspaan.com/",
+      "telephone": "+447479200200",
+      "email": "info@banaraspaan.com",
+      "priceRange": "££",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "26a Village Way East, Pinner",
+        "addressLocality": "Harrow",
+        "postalCode": "HA2 7LU",
+        "addressCountry": "GB"
+      },
+      "openingHours": ["Mo-Fr 12:00-24:00", "Sa-Su 11:00-24:00"]
+    },
+    {
+      "@type": "Restaurant",
+      "name": "Banaras Paan - Hatch End",
+      "servesCuisine": ["Indian", "Paan", "Bubble Tea", "Desserts"],
+      "telephone": "+447479200200",
+      "email": "info@banaraspaan.com",
+      "priceRange": "££",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Pickwick Walk, Uxbridge Road, Hatch End",
+        "addressLocality": "Harrow",
+        "postalCode": "HA5 4HS",
+        "addressCountry": "GB"
+      },
+      "openingHours": ["Mo 12:00-23:00", "Tu-We 18:00-23:00", "Th 12:00-23:00", "Fr 12:00-24:30", "Sa 11:00-24:30", "Su 11:00-23:00"]
+    }
+  ]
+}
+                </script>
+
+            </div>
+        </xpath>
+    </template>
+
+    <!-- ================================================================
+         SEO meta for the home page (title + description + keywords).
+         Injected into <head> only on the homepage.
+         ================================================================ -->
+    <template id="banaras_homepage_seo" inherit_id="website.layout"
+              name="Banaras Paan - Home SEO">
+        <xpath expr="//head" position="inside">
+            <t t-if="request and request.httprequest.path == '/'">
+                <meta name="description"
+                      content="Banaras Paan - authentic sweet paan (meetha paan), bubble tea, thick milkshakes and desserts, handcrafted in Harrow. Order UK-wide or visit our Rayners Lane &amp; Hatch End branches."/>
+                <meta name="keywords"
+                      content="sweet paan, meetha paan, royal ice paan, bubble tea, milkshake, Indian desserts, paan Harrow, paan UK delivery, Banaras Paan"/>
+                <meta property="og:title" content="Banaras Paan - Authentic Sweet Paan, Bubble Tea &amp; Desserts in Harrow"/>
+                <meta property="og:description"
+                      content="Authentic sweet paan, bubble tea and desserts handcrafted in Harrow. Order UK-wide or visit us in Rayners Lane &amp; Hatch End."/>
+                <meta property="og:type" content="website"/>
+            </t>
+        </xpath>
+    </template>
+
+</odoo>

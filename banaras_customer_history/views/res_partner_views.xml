@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_partner_form_banaras_customer_history" model="ir.ui.view">
+        <field name="name">res.partner.form.banaras.customer.history</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Good Till History">
+                    <group>
+                        <group string="Good Till Customer">
+                            <field name="x_goodtill_customer_id"/>
+                            <field name="x_goodtill_customer_group"/>
+                            <field name="x_goodtill_created_at"/>
+                            <field name="x_goodtill_updated_at"/>
+                            <field name="x_goodtill_loyalty_points_snapshot"/>
+                        </group>
+                        <group string="Transaction History">
+                            <field name="x_goodtill_history_order_count"/>
+                            <field name="x_goodtill_history_total_spend"/>
+                            <field name="x_goodtill_history_total_quantity"/>
+                            <field name="x_goodtill_first_order_date"/>
+                            <field name="x_goodtill_last_order_date"/>
+                            <field name="x_goodtill_history_outlets"/>
+                            <field name="x_goodtill_last_history_sync_at"/>
+                            <field name="x_goodtill_history_source"/>
+                        </group>
+                    </group>
+                    <group string="Source Sale IDs">
+                        <field name="x_goodtill_history_sale_ids" nolabel="1"/>
+                    </group>
+                    <group string="Odoo Loyalty Cards">
+                        <field name="x_banaras_loyalty_card_ids" nolabel="1" readonly="1">
+                            <list>
+                                <field name="program_id"/>
+                                <field name="code"/>
+                                <field name="points"/>
+                                <field name="active"/>
+                                <field name="expiration_date"/>
+                            </list>
+                        </field>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

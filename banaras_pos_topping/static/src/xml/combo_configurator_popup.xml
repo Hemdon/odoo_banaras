@@ -5,4 +5,16 @@
             <attribute name="name">product.name</attribute>
         </xpath>
     </t>
+
+    <t t-inherit="point_of_sale.ProductScreen" t-inherit-mode="extension">
+        <xpath expr="//div[@t-foreach='pos.productToDisplayByCateg']/ProductCard" position="before">
+            <div t-if="productCateg[2]" class="banaras-paan-group-title fw-bold text-uppercase text-muted px-2 pt-3 pb-1" style="grid-column: 1 / -1; letter-spacing: 0;">
+                <t t-esc="productCateg[2]"/>
+            </div>
+        </xpath>
+    </t>
+
+    <t t-name="banaras_hide_restaurant_tables_button" t-inherit="pos_restaurant.Navbar" t-inherit-mode="extension">
+        <xpath expr="//button[hasclass('table-button')]" position="replace"/>
+    </t>
 </templates>

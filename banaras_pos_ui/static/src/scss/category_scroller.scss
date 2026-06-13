@@ -1,0 +1,85 @@
+.product-screen .category-list {
+    display: flex !important;
+    grid-template-columns: none !important;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    gap: 0.5rem !important;
+    max-height: none;
+    min-height: 5rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    touch-action: pan-x;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    scrollbar-width: auto;
+    scrollbar-color: var(--primary, #714b67) var(--light, #e9ecef);
+}
+
+.product-screen .category-list::-webkit-scrollbar {
+    height: 10px;
+}
+
+.product-screen .category-list::-webkit-scrollbar-thumb {
+    background: var(--primary, #714b67);
+    border: 2px solid var(--light, #e9ecef);
+    border-radius: 5px;
+}
+
+.product-screen .category-list::-webkit-scrollbar-track {
+    background: var(--light, #e9ecef);
+    border-radius: 5px;
+}
+
+.product-screen .category-list .category-button {
+    flex: 0 0 128px;
+    width: 128px;
+    min-width: 128px;
+    height: 4rem;
+    scroll-snap-align: start;
+}
+
+.product-screen,
+.product-screen .leftpane,
+.product-screen .rightpane,
+.product-screen .rightpane > .position-relative {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.product-screen .leftpane {
+    position: relative;
+    flex: 0 0 auto;
+    height: 100%;
+}
+
+.product-screen .leftpane > .d-flex.flex-column.flex-grow-1,
+.product-screen .leftpane .order-container {
+    min-height: 0;
+}
+
+.product-screen .leftpane .order-container {
+    overscroll-behavior-y: contain;
+}
+
+.product-screen .leftpane .order-summary,
+.product-screen .leftpane .pads {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 900px) {
+    .product-screen .category-list {
+        min-height: 5rem;
+        padding: 0.375rem 0.375rem 0.625rem !important;
+    }
+
+    .product-screen .category-list .category-button {
+        flex-basis: 112px;
+        width: 112px;
+        min-width: 112px;
+        height: 3.75rem;
+    }
+}

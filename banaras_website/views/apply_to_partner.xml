@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Apply to Partner (/apply-to-partner) — restaurant B2B partnership.
+         Distinct from /become-a-partner (franchise). -->
+    <template id="apply_to_partner" name="Apply to Partner">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <!-- HERO -->
+                <section class="bp-hero" style="padding:5.5rem 1rem;">
+                    <div class="container">
+                        <p class="bp-eyebrow" style="color:#cfe8ff">For Restaurants – Partner With Us</p>
+                        <h1>Add Authentic Banarasi Paan To Your Menu</h1>
+                        <p>Delight your guests with freshly prepared paan and sweet paan after their meal &#8212; with zero extra kitchen work. We handle pre-orders, preparation and drop-off via Goodeats.</p>
+                        <a href="#register" class="btn btn-bp-gold btn-lg btn-lg-pill"><i class="fa fa-paper-plane me-2"/>Apply To Become A Partner</a>
+                    </div>
+                </section>
+
+                <!-- QUICK VALUE -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--green"><i class="fa fa-leaf"/></div>
+                                <h3>Easy</h3>
+                                <p class="text-muted">Ready-to-serve paan and sweet paan for your diners &#8212; zero kitchen prep.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--gold"><i class="fa fa-gbp"/></div>
+                                <h3>Smart</h3>
+                                <p class="text-muted">New revenue per cover without extra staff or equipment.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--sky"><i class="fa fa-truck"/></div>
+                                <h3>Simple</h3>
+                                <p class="text-muted">Simple pre-ordering and drop-off using Goodeats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- HOW PRE-ORDER & DROP-OFF WORKS -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">How pre-order &amp; drop-off works</p>
+                            <h2>Premium paan without operational complexity</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-3"><div class="bp-step"><div class="bp-step__num">1</div><h3>Set up your restaurant</h3><p>We create a dedicated Goodeats drop-off point and a partner menu with paan bundles.</p></div></div>
+                            <div class="col-md-6 col-lg-3"><div class="bp-step"><div class="bp-step__num">2</div><h3>Your guests pre-order</h3><p>Share a link or QR code in booking confirmations, menu inserts or at the table.</p></div></div>
+                            <div class="col-md-6 col-lg-3"><div class="bp-step"><div class="bp-step__num">3</div><h3>We prepare &amp; drop off</h3><p>We prepare fresh paan to your agreed time slots and deliver to your restaurant, ready to serve.</p></div></div>
+                            <div class="col-md-6 col-lg-3"><div class="bp-step"><div class="bp-step__num">4</div><h3>You serve &amp; earn</h3><p>Present the paan after the meal; earn margin on every pre-order with no production risk.</p></div></div>
+                        </div>
+                        <p class="text-center bp-lead mt-4 mb-0" style="font-weight:700;color:var(--bp-navy)">
+                            Guest &#8594; Goodeats Page &#8594; Banaras Paan &#8594; Restaurant
+                        </p>
+                    </div>
+                </section>
+
+                <!-- WHY PARTNER -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Why restaurants partner with us</p>
+                            <h2>More revenue, no kitchen complexity</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-3"><div class="bp-card"><div class="bp-icon bp-icon--gold"><i class="fa fa-gbp"/></div><h3>Higher spend per cover</h3><p>A premium post-meal upsell on top of the main bill.</p></div></div>
+                            <div class="col-md-6 col-lg-3"><div class="bp-card"><div class="bp-icon bp-icon--sky"><i class="fa fa-cutlery"/></div><h3>No kitchen complexity</h3><p>No extra chef, equipment or stock &#8212; everything arrives ready to serve.</p></div></div>
+                            <div class="col-md-6 col-lg-3"><div class="bp-card"><div class="bp-icon bp-icon--green"><i class="fa fa-leaf"/></div><h3>Authentic Banarasi paan</h3><p>Specialist product crafted by a dedicated paan shop in Harrow.</p></div></div>
+                            <div class="col-md-6 col-lg-3"><div class="bp-card"><div class="bp-icon"><i class="fa fa-users"/></div><h3>Flexible for events</h3><p>Perfect for large bookings, parties and festive menus with pre-orders collected in advance.</p></div></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- COMMISSION & PRICING -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Simple commission &amp; pricing</p>
+                            <h2>Choose the model that suits you</h2>
+                            <p class="bp-lead mx-auto" style="max-width:680px">All pricing is agreed in advance, with clear reporting of orders and payouts.</p>
+                        </div>
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="bp-card text-start h-100">
+                                    <span class="bp-chip mb-2"><i class="fa fa-star"/>Most popular</span>
+                                    <h3>Commission on pre-orders</h3>
+                                    <p>Guests pre-order and pay through our Goodeats page. At month-end we pay your restaurant a commission on all fulfilled pre-orders tagged to your location.</p>
+                                    <p class="mb-0" style="font-weight:700;color:var(--bp-green)">Typical: 15&#8211;20% commission, depending on volume.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="bp-card text-start h-100">
+                                    <span class="bp-chip mb-2"><i class="fa fa-tags"/>Flexible</span>
+                                    <h3>Wholesale &amp; resell</h3>
+                                    <p>Buy paan boxes at a wholesale price, set your own menu price and keep the difference.</p>
+                                    <p class="mb-0 text-muted">Best for restaurants that want full control over pricing and upsell strategy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- OPERATIONS -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Reliable operations you can trust</p>
+                            <h2>Easy for your team, consistent for your guests</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-3 text-center"><div class="bp-icon bp-icon--sky"><i class="fa fa-clock-o"/></div><h3>Delivery windows</h3><p class="text-muted">Fixed time slots on key days, agreed with your restaurant.</p></div>
+                            <div class="col-md-6 col-lg-3 text-center"><div class="bp-icon bp-icon--green"><i class="fa fa-leaf"/></div><h3>Freshness guidance</h3><p class="text-muted">Prepared close to service time, with clear best-condition guidance.</p></div>
+                            <div class="col-md-6 col-lg-3 text-center"><div class="bp-icon bp-icon--gold"><i class="fa fa-cutlery"/></div><h3>Presentation made simple</h3><p class="text-muted">Easy plating and serving suggestions &#8212; no training needed.</p></div>
+                            <div class="col-md-6 col-lg-3 text-center"><div class="bp-icon"><i class="fa fa-map-marker"/></div><h3>Goodeats routing</h3><p class="text-muted">Orders carry your restaurant ID and drop-off point for correct routing.</p></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- REGISTER INTEREST (WhatsApp form) -->
+                <section id="register" class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="text-center mb-4">
+                            <p class="bp-eyebrow">Register your interest</p>
+                            <h2>Tell us about your restaurant</h2>
+                            <p class="bp-lead mx-auto" style="max-width:680px">Fill this in and WhatsApp will open with your enquiry pre-filled. We can discuss whether commission or wholesale works best for your service model.</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="bp-card text-start">
+                                    <form id="bp-partner-form" onsubmit="return false;">
+                                        <div class="row g-3">
+                                            <div class="col-md-6"><label class="form-label">Restaurant name</label><input class="form-control" name="restaurant"/></div>
+                                            <div class="col-md-6"><label class="form-label">Contact name</label><input class="form-control" name="contact"/></div>
+                                            <div class="col-md-6"><label class="form-label">Role</label>
+                                                <select class="form-select" name="role">
+                                                    <option value="">Select role</option>
+                                                    <option>Owner</option><option>Manager</option><option>Head Chef</option><option>Other</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6"><label class="form-label">Phone number</label><input class="form-control" name="phone"/></div>
+                                            <div class="col-md-6"><label class="form-label">Email address</label><input class="form-control" name="email"/></div>
+                                            <div class="col-md-6"><label class="form-label">Postcode / area</label><input class="form-control" name="postcode"/></div>
+                                            <div class="col-md-6"><label class="form-label">Average covers per week</label>
+                                                <select class="form-select" name="covers">
+                                                    <option value="">Select average covers</option>
+                                                    <option>Under 100</option><option>100&#8211;250</option><option>250&#8211;500</option><option>500&#8211;1,000</option><option>1,000+</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12"><label class="form-label">Message</label><textarea class="form-control" name="message" rows="3"/></div>
+                                            <div class="col-12 text-center mt-2">
+                                                <button type="button" class="btn btn-bp-whatsapp btn-lg btn-lg-pill" onclick="bpSendWhatsApp()"><i class="fa fa-whatsapp me-2"/>Send on WhatsApp</button>
+                                                <p class="mt-2 mb-0 text-muted" style="font-size:.85rem">If the button does not open WhatsApp, use the <a href="https://wa.me/447479200200" target="_blank" rel="noopener">direct link</a>.</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <script>
+                function bpSendWhatsApp(){
+                    var f=document.getElementById('bp-partner-form');
+                    function v(n){var e=f.querySelector('[name="'+n+'"]');return e?e.value:'';}
+                    var lines=[
+                        'Restaurant Partner Enquiry',
+                        'Restaurant: '+v('restaurant'),
+                        'Contact: '+v('contact')+' ('+v('role')+')',
+                        'Phone: '+v('phone'),
+                        'Email: '+v('email'),
+                        'Area: '+v('postcode'),
+                        'Covers/week: '+v('covers'),
+                        'Message: '+v('message')
+                    ];
+                    var url='https://wa.me/447479200200?text='+encodeURIComponent(lines.join('\n'));
+                    window.open(url,'_blank');
+                }
+                </script>
+
+            </div>
+        </t>
+    </template>
+
+    <record id="apply_to_partner_page" model="website.page">
+        <field name="name">Apply to Partner</field>
+        <field name="url">/apply-to-partner</field>
+        <field name="view_id" ref="apply_to_partner"/>
+        <field name="website_published" eval="True"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_meta_title">Restaurant Partnership — Add Banaras Paan To Your Menu</field>
+        <field name="website_meta_description">Partner with Banaras Paan to add authentic Banarasi paan to your restaurant menu via Goodeats drop-off. Zero kitchen work, 15-20% commission or wholesale. Register your interest.</field>
+        <field name="website_meta_keywords">restaurant paan partner, paan wholesale, add paan to menu, Goodeats, Banaras Paan partnership, paan supplier restaurants</field>
+    </record>
+
+</odoo>

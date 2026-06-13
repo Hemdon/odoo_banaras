@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="banaras_pos_topping.PresetInfoPopupUKPhone"
+       t-inherit="pos_self_order.PresetInfoPopup"
+       t-inherit-mode="extension">
+        <xpath expr="//input[@placeholder='Phone']" position="attributes">
+            <attribute name="inputmode">tel</attribute>
+            <attribute name="t-on-blur">normalizePhone</attribute>
+        </xpath>
+        <xpath expr="//p[contains(@class, 'text-danger')]" position="replace">
+            <p t-if="!checkPhoneFormat()" class="text-danger">
+                Enter a valid UK phone number, for example 07908864185.
+            </p>
+        </xpath>
+    </t>
+</templates>

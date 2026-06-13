@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="banaras_customer_history.PartnerLine"
+       t-inherit="point_of_sale.PartnerLine"
+       t-inherit-mode="extension">
+        <xpath expr="//td[hasclass('partner-line-balance')]" position="replace">
+            <td class="partner-line-balance text-nowrap align-middle">
+                <div>
+                    <strong t-esc="`${props.partner.x_banaras_pos_loyalty_points || 0} Points`"/>
+                </div>
+                <div class="small text-muted">
+                    <t t-esc="`${props.partner.x_banaras_pos_order_count || 0} Orders`"/>
+                </div>
+                <div class="small text-muted">
+                    Last order:
+                    <t t-esc="props.partner.x_banaras_pos_last_order_date ? props.partner.x_banaras_pos_last_order_date.toFormat('dd/LL/yyyy') : 'Never'"/>
+                </div>
+            </td>
+        </xpath>
+
+        <xpath expr="//t[@t-if='ui.isSmall']//div[hasclass('partner-info')]//b" position="after">
+            <div class="text-primary fw-bold mt-1">
+                <t t-esc="`${props.partner.x_banaras_pos_loyalty_points || 0} Points`"/>
+            </div>
+            <div class="small text-muted">
+                <t t-esc="`${props.partner.x_banaras_pos_order_count || 0} Orders`"/>
+                <span class="mx-1">|</span>
+                Last order:
+                <t t-esc="props.partner.x_banaras_pos_last_order_date ? props.partner.x_banaras_pos_last_order_date.toFormat('dd/LL/yyyy') : 'Never'"/>
+            </div>
+        </xpath>
+    </t>
+</templates>

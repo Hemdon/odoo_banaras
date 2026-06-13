@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Become a Partner / Franchise  (/become-a-partner) -->
+    <template id="become_a_partner" name="Become a Partner">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <section class="bp-hero" style="padding:5.5rem 1rem;">
+                    <div class="container">
+                        <div class="bp-leaf mb-2"><i class="fa fa-handshake-o"/></div>
+                        <p class="bp-eyebrow" style="color:#cfe8ff">Franchise</p>
+                        <h1>A Bite of Banaras, A World of Flavour</h1>
+                        <p>Join a well-loved brand combining tradition with innovation &#8212; authentic paan alongside milkshakes, bubble tea and ice cream.</p>
+                        <a href="#apply" class="btn btn-bp-gold btn-lg btn-lg-pill"><i class="fa fa-paper-plane me-2"/>Join the Banaras Paan Family</a>
+                    </div>
+                </section>
+
+                <!-- Investment -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">The opportunity</p>
+                            <h2>Investment overview</h2>
+                        </div>
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-lg-3"><div class="bp-statbox"><div class="bp-statnum">&#163;30,000</div><div class="bp-statlbl">Minimum investment</div></div></div>
+                            <div class="col-6 col-lg-3"><div class="bp-statbox"><div class="bp-statnum">&#163;15,000</div><div class="bp-statlbl">Franchise fees</div></div></div>
+                            <div class="col-6 col-lg-3"><div class="bp-statbox"><div class="bp-statnum">&#163;45,000</div><div class="bp-statlbl">Total investment</div></div></div>
+                            <div class="col-6 col-lg-3"><div class="bp-statbox"><div class="bp-statnum">Available</div><div class="bp-statlbl">Funding support</div></div></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Benefits -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-6">
+                                <p class="bp-eyebrow">Why partner with us</p>
+                                <h2 class="mb-3">A model built for profitability</h2>
+                                <ul class="bp-ticks bp-lead" style="font-size:1.05rem">
+                                    <li>Leverage the credibility and success of a well-recognised name</li>
+                                    <li>Comprehensive training and operational guidance</li>
+                                    <li>Access to our unique blends and secret recipes</li>
+                                    <li>Cost-effective business model designed for profitability</li>
+                                    <li>Equipment sourcing and refurbishment support</li>
+                                    <li>IT &amp; software assistance</li>
+                                    <li>Recruitment and HR support</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="bp-card text-start p-4">
+                                    <h3 class="mb-3">Who we're looking for</h3>
+                                    <ul class="bp-ticks">
+                                        <li>A passion for food &amp; beverage</li>
+                                        <li>Commitment to our quality standards</li>
+                                        <li>Drive to build a profitable operation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Process -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">How it works</p>
+                            <h2>Your journey to opening</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg"><div class="bp-step"><div class="bp-step__num">1</div><h3>Apply</h3><p>Submit your application to express your interest.</p></div></div>
+                            <div class="col-md-6 col-lg"><div class="bp-step"><div class="bp-step__num">2</div><h3>Discuss</h3><p>Our team reviews and evaluates the opportunity with you.</p></div></div>
+                            <div class="col-md-6 col-lg"><div class="bp-step"><div class="bp-step__num">3</div><h3>Set up</h3><p>Location selection and store setup.</p></div></div>
+                            <div class="col-md-6 col-lg"><div class="bp-step"><div class="bp-step__num">4</div><h3>Launch</h3><p>Training and grand-opening support.</p></div></div>
+                            <div class="col-md-6 col-lg"><div class="bp-step"><div class="bp-step__num">5</div><h3>Grow</h3><p>Ongoing operational assistance.</p></div></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Apply / CTA -->
+                <section id="apply" class="bp-section bp-cta">
+                    <div class="container text-center">
+                        <h2 class="mb-3">Join the Banaras Paan Family Today!</h2>
+                        <p class="bp-lead text-white mb-4 mx-auto" style="opacity:.95; max-width:640px">
+                            Ready to start? Get in touch and our franchise team will be in contact.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="mailto:info@banaraspaan.com?subject=Franchise%20enquiry" class="btn btn-bp-gold btn-lg btn-lg-pill"><i class="fa fa-envelope me-2"/>Email the franchise team</a>
+                            <a href="tel:+447479200200" class="btn btn-bp-light btn-lg btn-lg-pill"><i class="fa fa-phone me-2"/>07479 200200</a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+    <record id="become_a_partner_page" model="website.page">
+        <field name="name">Become a Partner</field>
+        <field name="url">/become-a-partner</field>
+        <field name="view_id" ref="become_a_partner"/>
+        <field name="website_published" eval="True"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_meta_title">Franchise Opportunity — Become a Banaras Paan Partner</field>
+        <field name="website_meta_description">Own a Banaras Paan franchise from £45,000 total investment. Proven brand, training, secret recipes, equipment and HR support, with funding support available. Apply today.</field>
+        <field name="website_meta_keywords">Banaras Paan franchise, paan franchise UK, food franchise opportunity, become a partner, bubble tea franchise</field>
+    </record>
+
+    <record id="menu_become_a_partner" model="website.menu">
+        <field name="name">Become a Partner</field>
+        <field name="url">/become-a-partner</field>
+        <field name="page_id" ref="become_a_partner_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" eval="50"/>
+    </record>
+
+</odoo>

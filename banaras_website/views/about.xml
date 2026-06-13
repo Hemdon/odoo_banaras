@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ================================================================
+         About Us page  (/about-us)
+         New published website page, content in native Odoo/Bootstrap
+         blocks inside an `oe_structure` wrapper (editable in builder).
+         ================================================================ -->
+    <template id="about_us" name="About Us">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <!-- ============ HERO ============ -->
+                <section class="bp-hero" style="padding:5rem 1rem;">
+                    <div class="container">
+                        <div class="bp-leaf mb-2"><i class="fa fa-leaf"/></div>
+                        <h1>About Banaras Paan</h1>
+                        <p>Where tradition meets innovation &#8212; the authentic flavours of India with a modern twist.</p>
+                    </div>
+                </section>
+
+                <!-- ============ STORY / MISSION ============ -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-7">
+                                <p class="bp-eyebrow">Our Story</p>
+                                <h2 class="mb-3">Rooted in Banaras heritage</h2>
+                                <p class="bp-lead">
+                                    Welcome to Banaras Paan! We bring you a delightful variety of
+                                    Sweet Paan, Bubble Tea, Thick Milkshakes and Ice Creams &#8212;
+                                    crafted using the finest ingredients for a burst of flavour in
+                                    every bite.
+                                </p>
+                                <p>
+                                    Our goal is to deliver a premium experience that blends
+                                    time-honoured tradition with contemporary flavours, served fresh
+                                    from our shops in Harrow.
+                                </p>
+                                <p class="fw-bold" style="color:var(--bp-green); font-size:1.15rem;">
+                                    &#8220;Taste the Tradition. Experience the Flavour.&#8221;
+                                </p>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="bp-card text-start p-4">
+                                    <h3 class="mb-3">What we serve</h3>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="bp-chip"><i class="fa fa-leaf"/>Sweet Paan</span>
+                                        <span class="bp-chip"><i class="fa fa-coffee"/>Bubble Tea</span>
+                                        <span class="bp-chip"><i class="fa fa-glass"/>Thick Milkshakes</span>
+                                        <span class="bp-chip"><i class="fa fa-birthday-cake"/>Ice Creams</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ VALUES ============ -->
+                <section class="bp-section bp-section--soft">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">What makes us different</p>
+                            <h2>Tradition, quality, freshness</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--green"><i class="fa fa-leaf"/></div>
+                                <h3>Authentic recipes</h3>
+                                <p class="text-muted">Traditional paan made with premium betel leaves and curated fillings.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--gold"><i class="fa fa-star"/></div>
+                                <h3>Premium ingredients</h3>
+                                <p class="text-muted">Only the finest ingredients for a burst of flavour in every bite.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--sky"><i class="fa fa-clock-o"/></div>
+                                <h3>Fresh daily</h3>
+                                <p class="text-muted">Handcrafted fresh every day, blending tradition with a modern twist.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ LOCATIONS ============ -->
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">Find us</p>
+                            <h2>Our branches</h2>
+                            <p class="bp-lead">More branches coming soon!</p>
+                        </div>
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="bp-loc">
+                                    <div class="bp-loc__head"><h3>Rayners Lane</h3></div>
+                                    <div class="bp-loc__body">
+                                        <p class="mb-2"><i class="fa fa-map-marker me-2"/>26a Village Way East, Pinner, Harrow, HA2 7LU</p>
+                                        <p class="mb-0"><i class="fa fa-phone me-2"/><a href="tel:+447479200200">07479 200200</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="bp-loc">
+                                    <div class="bp-loc__head"><h3>Hatch End</h3></div>
+                                    <div class="bp-loc__body">
+                                        <p class="mb-2"><i class="fa fa-map-marker me-2"/>Pickwick Walk, Uxbridge Road, Hatch End, Harrow, HA5 4HS</p>
+                                        <p class="mb-0"><i class="fa fa-phone me-2"/><a href="tel:+447479200200">07479 200200</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============ CTA ============ -->
+                <section class="bp-section bp-cta">
+                    <div class="container">
+                        <h2 class="mb-3">Visit Us Today!</h2>
+                        <p class="bp-lead text-white mb-4" style="opacity:.95">
+                            Drop by our Harrow branches and taste the tradition for yourself.
+                        </p>
+                        <a class="btn btn-bp-gold btn-lg btn-lg-pill"
+                           href="https://www.google.com/maps/search/?api=1&amp;query=Banaras+Paan+Harrow"
+                           target="_blank" rel="noopener">
+                            <i class="fa fa-location-arrow me-2"/>Get directions
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ============ SEO: Organization JSON-LD ============ -->
+                <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Banaras Paan",
+  "url": "https://www.banaraspaan.com",
+  "telephone": "+447479200200",
+  "email": "info@banaraspaan.com",
+  "description": "Banaras Paan serves authentic sweet paan, bubble tea, thick milkshakes and ice creams, handcrafted in Harrow.",
+  "sameAs": ["https://www.facebook.com/banaraspaan", "https://www.instagram.com/banaraspaan"]
+}
+                </script>
+
+            </div>
+        </t>
+    </template>
+
+    <!-- The published page record at /about-us, with SEO metadata. -->
+    <record id="about_us_page" model="website.page">
+        <field name="name">About Us</field>
+        <field name="url">/about-us</field>
+        <field name="view_id" ref="about_us"/>
+        <field name="website_published" eval="True"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_meta_title">About Banaras Paan — Authentic Paan, Bubble Tea &amp; Desserts in Harrow</field>
+        <field name="website_meta_description">Learn about Banaras Paan: authentic sweet paan, bubble tea, thick milkshakes and ice creams handcrafted in Harrow, blending Banaras heritage with a modern twist.</field>
+        <field name="website_meta_keywords">about Banaras Paan, sweet paan Harrow, bubble tea Harrow, Indian desserts, paan shop UK</field>
+    </record>
+
+    <!-- Top-menu entry for About Us. -->
+    <record id="menu_about_us" model="website.menu">
+        <field name="name">About Us</field>
+        <field name="url">/about-us</field>
+        <field name="page_id" ref="about_us_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" eval="55"/>
+    </record>
+
+</odoo>

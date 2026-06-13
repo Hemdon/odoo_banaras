@@ -1,0 +1,137 @@
+/* =====================================================================
+   Banaras Paan - brand styling
+   Palette derived from the logo:
+     - Indigo / navy  (the "Banaras" script)  -> headings / dark sections
+     - Fresh green    (the leaf + "PAAN")      -> primary actions
+     - Sky blue       (the square frame)       -> accents / links
+     - Saffron gold                            -> highlight CTA (paan/royal vibe)
+   ===================================================================== */
+:root {
+    --bp-navy:   #232c84;
+    --bp-navy-d: #1a2167;
+    --bp-green:  #3aa935;
+    --bp-green-d:#2f8f2b;
+    --bp-sky:    #2ba8e0;
+    --bp-gold:   #f2a60c;
+    --bp-ink:    #1c1c2b;
+    --bp-soft:   #f6f8fc;
+}
+
+/* ---- Header logo (a bit bigger than the 40px default) ---- */
+header#top .navbar-brand.logo img,
+header .navbar-brand.logo img { height: 72px !important; max-height: 72px !important; width: auto !important; }
+
+/* ---- Typography / generic ---- */
+.bp h1, .bp h2, .bp h3 { color: var(--bp-navy); font-weight: 800; letter-spacing: -.01em; }
+.bp .bp-eyebrow {
+    text-transform: uppercase; letter-spacing: .14em; font-weight: 700;
+    font-size: .8rem; color: var(--bp-sky);
+}
+.bp .bp-lead { font-size: 1.15rem; color: #4a4a5a; }
+.bp .bp-section { padding: 5rem 0; }
+.bp .bp-section--soft { background: var(--bp-soft); }
+
+/* ---- Buttons ---- */
+.bp .btn-bp-green { background: var(--bp-green); border-color: var(--bp-green); color:#fff; font-weight:700; }
+.bp .btn-bp-green:hover { background: var(--bp-green-d); border-color: var(--bp-green-d); color:#fff; }
+.bp .btn-bp-gold  { background: var(--bp-gold);  border-color: var(--bp-gold);  color:#1c1c1c; font-weight:700; }
+.bp .btn-bp-gold:hover  { filter: brightness(.95); color:#1c1c1c; }
+.bp .btn-bp-light { background: rgba(255,255,255,.12); border:2px solid #fff; color:#fff; font-weight:700; }
+.bp .btn-bp-light:hover { background:#fff; color: var(--bp-navy); }
+.bp .btn-lg-pill { border-radius: 999px; padding: .8rem 1.9rem; }
+
+/* ---- Hero ---- */
+.bp-hero {
+    position: relative; color:#fff; text-align:center;
+    padding: 7rem 1rem;
+    background:
+        radial-gradient(1200px 500px at 50% -10%, rgba(43,168,224,.45), transparent 60%),
+        linear-gradient(135deg, var(--bp-navy) 0%, var(--bp-navy-d) 55%, var(--bp-green-d) 130%);
+}
+.bp-hero h1 { color:#fff; font-size: clamp(2.2rem, 5vw, 3.6rem); margin-bottom: 1rem; }
+.bp-hero p  { font-size: 1.2rem; max-width: 760px; margin: 0 auto 2rem; opacity:.95; }
+.bp-hero .bp-leaf { font-size: 2.2rem; color: var(--bp-green); filter: drop-shadow(0 2px 6px rgba(0,0,0,.25)); }
+
+/* ---- Highlight chips ---- */
+.bp-chip {
+    display:inline-flex; align-items:center; gap:.5rem;
+    background:#fff; border:1px solid #e6e8f2; border-radius:999px;
+    padding:.5rem 1rem; font-weight:600; color: var(--bp-navy);
+    box-shadow: 0 4px 14px rgba(35,44,132,.06);
+}
+.bp-chip .fa { color: var(--bp-green); }
+
+/* ---- Feature / category icon ---- */
+.bp-icon {
+    width:72px; height:72px; border-radius:18px; display:flex;
+    align-items:center; justify-content:center; font-size:1.8rem; color:#fff;
+    margin: 0 auto 1.1rem;
+    background: linear-gradient(135deg, var(--bp-sky), var(--bp-navy));
+}
+.bp-icon--green { background: linear-gradient(135deg, var(--bp-green), var(--bp-green-d)); }
+.bp-icon--gold  { background: linear-gradient(135deg, var(--bp-gold), #d98a00); }
+.bp-icon--sky   { background: linear-gradient(135deg, var(--bp-sky), #1c7fb0); }
+
+/* ---- Cards ---- */
+.bp-card {
+    height:100%; background:#fff; border:1px solid #eef0f7; border-radius:18px;
+    padding:2rem 1.5rem; text-align:center;
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+.bp-card:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(35,44,132,.12); }
+.bp-card h3 { font-size:1.2rem; margin-bottom:.6rem; }
+.bp-card p { color:#5b5b6b; font-size:.95rem; margin-bottom:1.1rem; }
+
+/* ---- Counters ---- */
+.bp-counter { text-align:center; padding:1rem; }
+.bp-counter .bp-num { font-size: clamp(2.4rem,5vw,3.4rem); font-weight:900; color: var(--bp-green); line-height:1; }
+.bp-counter .bp-label { color: var(--bp-navy); font-weight:600; margin-top:.4rem; }
+
+/* ---- Locations ---- */
+.bp-loc {
+    height:100%; background:#fff; border:1px solid #eef0f7; border-radius:18px; overflow:hidden;
+    box-shadow: 0 10px 30px rgba(35,44,132,.07);
+}
+.bp-loc__head { background: var(--bp-navy); color:#fff; padding:1.2rem 1.5rem; }
+.bp-loc__head h3 { color:#fff; margin:0; }
+.bp-loc__body { padding:1.5rem; }
+.bp-loc__body .fa { color: var(--bp-green); width:1.2rem; }
+.bp-loc__hours { list-style:none; padding:0; margin:1rem 0 0; font-size:.92rem; }
+.bp-loc__hours li { display:flex; justify-content:space-between; padding:.25rem 0; border-bottom:1px dashed #eef0f7; }
+
+/* ---- CTA band ---- */
+.bp-cta { background: linear-gradient(135deg, var(--bp-green), var(--bp-green-d)); color:#fff; text-align:center; }
+.bp-cta h2 { color:#fff; }
+
+/* ---- Numbered steps ---- */
+.bp-step { height:100%; background:#fff; border:1px solid #eef0f7; border-radius:18px; padding:1.8rem 1.4rem; text-align:center; }
+.bp-step__num {
+    width:52px; height:52px; border-radius:50%; margin:0 auto 1rem;
+    display:flex; align-items:center; justify-content:center;
+    font-weight:900; font-size:1.3rem; color:#fff;
+    background: linear-gradient(135deg, var(--bp-green), var(--bp-green-d));
+}
+.bp-step h3 { font-size:1.1rem; margin-bottom:.5rem; }
+.bp-step p { color:#5b5b6b; font-size:.92rem; margin:0; }
+
+/* ---- Stat / investment boxes ---- */
+.bp-statbox { background:#fff; border:1px solid #eef0f7; border-radius:16px; padding:1.5rem; text-align:center; height:100%; }
+.bp-statbox .bp-statnum { font-size:1.9rem; font-weight:900; color:var(--bp-navy); }
+.bp-statbox .bp-statlbl { color:#5b5b6b; font-size:.9rem; }
+
+/* ---- Platform / collection buttons ---- */
+.bp-platform { display:flex; align-items:center; gap:.6rem; justify-content:center; }
+.btn-bp-dark { background:var(--bp-navy); border-color:var(--bp-navy); color:#fff; font-weight:700; }
+.btn-bp-dark:hover { background:var(--bp-navy-d); color:#fff; }
+.btn-bp-whatsapp { background:#25d366; border-color:#25d366; color:#fff; font-weight:700; }
+.btn-bp-whatsapp:hover { filter:brightness(.95); color:#fff; }
+
+/* ---- Tick list ---- */
+.bp-ticks { list-style:none; padding:0; margin:0; }
+.bp-ticks li { padding:.45rem 0 .45rem 1.9rem; position:relative; }
+.bp-ticks li:before { content:"\f00c"; font-family:"FontAwesome"; position:absolute; left:0; color:var(--bp-green); }
+
+@media (max-width: 575.98px) {
+    .bp .bp-section { padding: 3.2rem 0; }
+    .bp-hero { padding: 4.5rem 1rem; }
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Event & Party Orders  (/event-and-party-orders) -->
+    <template id="event_party_orders" name="Event &amp; Party Orders">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <section class="bp-hero" style="padding:5rem 1rem;">
+                    <div class="container">
+                        <div class="bp-leaf mb-2"><i class="fa fa-glass"/></div>
+                        <h1>Event &amp; Party Orders</h1>
+                        <p>Bring the authentic taste of Banaras to your celebration &#8212; weddings, parties and corporate events.</p>
+                        <a href="https://wa.me/447479200200" target="_blank" rel="noopener" class="btn btn-bp-whatsapp btn-lg btn-lg-pill">
+                            <i class="fa fa-whatsapp me-2"/>WhatsApp for a quote
+                        </a>
+                    </div>
+                </section>
+
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">What we offer</p>
+                            <h2>Treats that make your event memorable</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--green"><i class="fa fa-leaf"/></div>
+                                <h3>Live paan counters</h3>
+                                <p class="text-muted">Freshly rolled paan, prepared in front of your guests.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--sky"><i class="fa fa-coffee"/></div>
+                                <h3>Bubble tea &amp; shakes</h3>
+                                <p class="text-muted">A vibrant drinks bar with exciting flavours for all ages.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="bp-icon bp-icon--gold"><i class="fa fa-birthday-cake"/></div>
+                                <h3>Desserts &amp; bulk orders</h3>
+                                <p class="text-muted">Ice creams, sweets and large platters tailored to your numbers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bp-section bp-section--soft">
+                    <div class="container text-center">
+                        <p class="bp-eyebrow">Let's plan it together</p>
+                        <h2 class="mb-3">Get in touch</h2>
+                        <p class="bp-lead mb-4 mx-auto" style="max-width:640px">
+                            Tell us your date, location and guest numbers and we'll put together the perfect package.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                            <a href="https://wa.me/447479200200" target="_blank" rel="noopener" class="btn btn-bp-whatsapp btn-lg btn-lg-pill"><i class="fa fa-whatsapp me-2"/>WhatsApp</a>
+                            <a href="tel:+447479200200" class="btn btn-bp-green btn-lg btn-lg-pill"><i class="fa fa-phone me-2"/>07479 200200</a>
+                            <a href="mailto:info@banaraspaan.com" class="btn btn-bp-dark btn-lg btn-lg-pill"><i class="fa fa-envelope me-2"/>Email us</a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+    <record id="event_party_page" model="website.page">
+        <field name="name">Event &amp; Party Orders</field>
+        <field name="url">/event-and-party-orders</field>
+        <field name="view_id" ref="event_party_orders"/>
+        <field name="website_published" eval="True"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_meta_title">Event &amp; Party Catering — Paan Counters &amp; Bulk Orders | Banaras Paan</field>
+        <field name="website_meta_description">Live paan counters, bubble tea bars, desserts and bulk orders for weddings, parties and corporate events in and around Harrow. WhatsApp or call us for a tailored quote.</field>
+        <field name="website_meta_keywords">paan counter hire, wedding paan stall, event catering paan, party orders, bulk paan order, Harrow</field>
+    </record>
+
+    <record id="menu_event_party" model="website.menu">
+        <field name="name">Event &amp; Party Orders</field>
+        <field name="url">/event-and-party-orders</field>
+        <field name="page_id" ref="event_party_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" eval="30"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- UK Wide Orders  (/uk-wide-orders) -->
+    <template id="uk_wide_orders" name="UK Wide Orders">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bp">
+
+                <section class="bp-hero" style="padding:5rem 1rem;">
+                    <div class="container">
+                        <div class="bp-leaf mb-2"><i class="fa fa-flag"/></div>
+                        <h1>UK Wide Orders</h1>
+                        <p>Fresh, aromatic sweet paan dispatched next day across the UK.*</p>
+                        <a href="/shop" class="btn btn-bp-gold btn-lg btn-lg-pill">
+                            <i class="fa fa-shopping-bag me-2"/>Order Sweet Paan Now
+                        </a>
+                    </div>
+                </section>
+
+                <section class="bp-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <p class="bp-eyebrow">How it works</p>
+                            <h2>Pick your flavour, add to your bucket, confirm</h2>
+                            <p class="bp-lead mx-auto" style="max-width:680px">
+                                We handle the rest &#8212; 100% hassle-free transactions.
+                            </p>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="bp-step">
+                                    <div class="bp-step__num">1</div>
+                                    <h3>Choose your paan</h3>
+                                    <p>Royal saffron, rose, elaichi, fruity or crunchy &#8212; pick what your mood says.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="bp-step">
+                                    <div class="bp-step__num">2</div>
+                                    <h3>Put in bucket</h3>
+                                    <p>Add quantity &amp; mix flavours. Minimum fuss, clear pricing.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="bp-step">
+                                    <div class="bp-step__num">3</div>
+                                    <h3>We dispatch next day*</h3>
+                                    <p>Freshly prepared &amp; carefully packed to retain aroma.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="bp-step">
+                                    <div class="bp-step__num">4</div>
+                                    <h3>Enjoy tension-free</h3>
+                                    <p>Secure payment, quick confirmation, and your paan on the way.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bp-section bp-section--soft">
+                    <div class="container text-center">
+                        <h2 class="mb-3">Ready to order?</h2>
+                        <p class="bp-lead mb-4">Freshly prepared, carefully packed, next-day dispatch.*</p>
+                        <a href="/shop" class="btn btn-bp-green btn-lg btn-lg-pill">
+                            <i class="fa fa-shopping-bag me-2"/>Order Sweet Paan Now
+                        </a>
+                        <p class="text-muted mt-3" style="font-size:.85rem">*Next-day dispatch subject to terms &amp; cut-off times.</p>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+    <record id="uk_wide_orders_page" model="website.page">
+        <field name="name">UK Wide Orders</field>
+        <field name="url">/uk-wide-orders</field>
+        <field name="view_id" ref="uk_wide_orders"/>
+        <field name="website_published" eval="True"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_meta_title">UK Wide Sweet Paan Delivery — Next-Day Dispatch | Banaras Paan</field>
+        <field name="website_meta_description">Order fresh sweet paan online for next-day UK delivery. Choose your flavours — royal saffron, rose, elaichi and more — add to your bucket and we dispatch nationwide.</field>
+        <field name="website_meta_keywords">sweet paan delivery UK, order paan online, next day paan, meetha paan delivery, Banaras Paan</field>
+    </record>
+
+    <record id="menu_uk_wide_orders" model="website.menu">
+        <field name="name">UK Wide Orders</field>
+        <field name="url">/uk-wide-orders</field>
+        <field name="page_id" ref="uk_wide_orders_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" eval="20"/>
+    </record>
+
+</odoo>

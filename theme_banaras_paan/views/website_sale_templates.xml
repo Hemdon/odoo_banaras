@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="banaras_website_layout" inherit_id="website.layout" name="Banaras Website Layout">
+        <xpath expr="//body" position="attributes">
+            <attribute name="class" add="banaras-site" separator=" "/>
+        </xpath>
+        <xpath expr="//header" position="before">
+            <div class="banaras-announcement">
+                <div class="container">
+                    <span>Authentic Banaras Paan, handcrafted in Harrow</span>
+                    <a href="/contactus">Visit our stores</a>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="banaras_sale_products" inherit_id="website_sale.products" name="Banaras Shop SEO">
+        <xpath expr="//div[@id='products_grid']" position="before">
+            <div class="banaras-shop-intro">
+                <p class="banaras-eyebrow">Freshly handcrafted</p>
+                <h1>Shop Authentic Paan</h1>
+                <p>
+                    Explore premium, sweet, royal and ice paan inspired by the
+                    flavours of Banaras.
+                </p>
+            </div>
+        </xpath>
+    </template>
+</odoo>
+
