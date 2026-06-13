@@ -14,6 +14,7 @@
         "pos_self_order.assets": [
             "banaras_pos_topping/static/src/js/self_order_paan_groups.js",
             "banaras_pos_topping/static/src/js/self_order_uk_phone.js",
+            "banaras_pos_topping/static/src/js/self_order_royal_offer.js",
             "banaras_pos_topping/static/src/xml/self_order_paan_groups.xml",
             "banaras_pos_topping/static/src/xml/self_order_uk_phone.xml",
         ],
