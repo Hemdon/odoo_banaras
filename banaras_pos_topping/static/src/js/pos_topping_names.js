@@ -33,18 +33,106 @@ function watchRestaurantTablesButton() {
 
 watchRestaurantTablesButton();
 
-const BANARAS_TIER_RULES = [
-    { betterProgramId: 11, lowerProgramId: 12, betterBuy: 8, betterFree: 2, lowerBuy: 5, lowerFree: 1 },
-    { betterProgramId: 13, lowerProgramId: 14, betterBuy: 8, betterFree: 2, lowerBuy: 5, lowerFree: 1 },
-];
-const BUBBLE_TEA_PROGRAM_ID = 15;
+// Offer programs are auto-detected by NAME from the loaded loyalty.program records
+// (see rebuildBanarasProgramMaps) so every branch — including ones added later —
+// works without editing this file, as long as the naming convention is kept:
+//   "Buy 3 Get 1 FREE - Banaras Royal Paan (<Branch>)"
+//   "Buy 8 Get 2 FREE - Banaras Premium Paan (<Branch>)"
+//   "Buy 5 Get 1 FREE - Banaras Premium Paan (<Branch>)"
+//   "Buy 3 Get 1 FREE - Bubble Tea"
+// The KNOWN_* ids are a safety net for the existing branches (Hatch End / Rayners /
+// Hounslow) so offers never break even if name detection ever misses.
+const KNOWN_ROYAL_PROGRAM_IDS = [10, 25, 30];
+const KNOWN_TIER_PAIRS = [[11, 12], [13, 14], [28, 29]]; // [Premium 8/2, Premium 5/1]
+const KNOWN_BUBBLE_PROGRAM_IDS = [15];
 const BUBBLE_TEA_REWARD_LABEL = "Buy 3 Get 1 FREE - Bubble Tea";
-const ROYAL_PAAN_PROGRAM_IDS = [10, 25];
-const BANARAS_AUTO_PRODUCT_PROGRAM_IDS = new Set([
-    BUBBLE_TEA_PROGRAM_ID,
-    ...ROYAL_PAAN_PROGRAM_IDS,
-    ...BANARAS_TIER_RULES.flatMap((tier) => [tier.betterProgramId, tier.lowerProgramId]),
-]);
+
+let BANARAS_TIER_RULES = [];
+let BUBBLE_TEA_PROGRAM_ID = KNOWN_BUBBLE_PROGRAM_IDS[0];
+let ROYAL_PAAN_PROGRAM_IDS = [...KNOWN_ROYAL_PROGRAM_IDS];
+let BANARAS_AUTO_PRODUCT_PROGRAM_IDS = new Set();
+
+function parseBuyGet(name) {
+    const m = /Buy\s+(\d+)\s+Get\s+(\d+)/i.exec(name || "");
+    return m ? { buy: Number(m[1]), free: Number(m[2]) } : null;
+}
+
+function loadedLoyaltyPrograms(models) {
+    const coll = models?.["loyalty.program"];
+    if (!coll) {
+        return [];
+    }
+    if (typeof coll.getAll === "function") {
+        return coll.getAll();
+    }
+    return Array.isArray(coll.records) ? coll.records : [];
+}
+
+function rebuildBanarasProgramMaps(models) {
+    const royal = new Set(KNOWN_ROYAL_PROGRAM_IDS);
+    const bubble = new Set(KNOWN_BUBBLE_PROGRAM_IDS);
+    const premiumByBranch = {};
+
+    for (const program of loadedLoyaltyPrograms(models)) {
+        if (program.program_type !== "buy_x_get_y") {
+            continue;
+        }
+        const name = localizedText(program.name);
+        if (/Royal\s+Paan/i.test(name)) {
+            royal.add(program.id);
+        } else if (/Premium\s+Paan/i.test(name)) {
+            const bg = parseBuyGet(name);
+            if (!bg) {
+                continue;
+            }
+            const branch = (/\(([^)]+)\)\s*$/.exec(name) || [])[1] || name;
+            premiumByBranch[branch] = premiumByBranch[branch] || {};
+            if (bg.buy >= 8) {
+                premiumByBranch[branch].better = { id: program.id, ...bg };
+            } else {
+                premiumByBranch[branch].lower = { id: program.id, ...bg };
+            }
+        } else if (/Bubble\s+Tea/i.test(name)) {
+            bubble.add(program.id);
+        }
+    }
+
+    const rules = [];
+    const seen = new Set();
+    const addTier = (b, l, bBuy = 8, bFree = 2, lBuy = 5, lFree = 1) => {
+        const key = `${b}-${l}`;
+        if (seen.has(key)) {
+            return;
+        }
+        seen.add(key);
+        rules.push({
+            betterProgramId: b,
+            lowerProgramId: l,
+            betterBuy: bBuy,
+            betterFree: bFree,
+            lowerBuy: lBuy,
+            lowerFree: lFree,
+        });
+    };
+    for (const branch of Object.keys(premiumByBranch)) {
+        const { better, lower } = premiumByBranch[branch];
+        if (better && lower) {
+            addTier(better.id, lower.id, better.buy, better.free, lower.buy, lower.free);
+        }
+    }
+    for (const [b, l] of KNOWN_TIER_PAIRS) {
+        addTier(b, l);
+    }
+
+    BANARAS_TIER_RULES = rules;
+    ROYAL_PAAN_PROGRAM_IDS = [...royal];
+    BUBBLE_TEA_PROGRAM_ID = [...bubble][0] ?? KNOWN_BUBBLE_PROGRAM_IDS[0];
+    BANARAS_AUTO_PRODUCT_PROGRAM_IDS = new Set([
+        ...bubble,
+        ...royal,
+        ...rules.flatMap((tier) => [tier.betterProgramId, tier.lowerProgramId]),
+    ]);
+}
 const PAAN_CATEGORY_ID = 21;
 const PAAN_GROUPS = [
     {
@@ -696,6 +784,7 @@ async function postProcessBanarasRewards(pos, order) {
 patch(PosStore.prototype, {
     async afterProcessServerData() {
         const result = await super.afterProcessServerData(...arguments);
+        rebuildBanarasProgramMaps(this.models);
         if (!this.selectedCategory && this.models?.["pos.category"]?.get(PAAN_CATEGORY_ID)) {
             this.setSelectedCategory(PAAN_CATEGORY_ID);
         }
